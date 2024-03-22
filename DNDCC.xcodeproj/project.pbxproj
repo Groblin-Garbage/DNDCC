@@ -85,14 +85,14 @@
 				3660B7992BAB5A3700766221 /* DNDCC.xcdatamodeld */,
 				36F3707A2BACA74D002DCC99 /* homeVC.swift */,
 				36F3707C2BACA7DB002DCC99 /* infoVC.swift */,
-				36F3707E2BACA904002DCC99 /* characterVC.swift */,
-				36F370802BACAAA5002DCC99 /* createVC.swift */,
-				36F370822BACAAB2002DCC99 /* statVC.swift */,
-				36F370842BACAAC0002DCC99 /* viewVC.swift */,
 				36F370862BACAAD8002DCC99 /* raceVC.swift */,
 				36F370882BACAAE6002DCC99 /* classVC.swift */,
 				36F3708A2BACAB03002DCC99 /* spellsVC.swift */,
 				36F3708C2BACABCD002DCC99 /* itemsVC.swift */,
+				36F3707E2BACA904002DCC99 /* characterVC.swift */,
+				36F370802BACAAA5002DCC99 /* createVC.swift */,
+				36F370822BACAAB2002DCC99 /* statVC.swift */,
+				36F370842BACAAC0002DCC99 /* viewVC.swift */,
 			);
 			path = DNDCC;
 			sourceTree = "<group>";
