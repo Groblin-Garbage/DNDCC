@@ -36,7 +36,37 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6bU-6q-kNV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-272" y="-1507"/>
+            <point key="canvasLocation" x="-677" y="-1513"/>
+        </scene>
+        <!--Race DetailsVC-->
+        <scene sceneID="0lV-CS-7HA">
+            <objects>
+                <viewController id="Z6g-bQ-aNQ" customClass="raceDetailsVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="foJ-Q5-lE5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="8e3-O8-N91"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H41-l2-6kp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-677" y="-2241"/>
+        </scene>
+        <!--Class DetailsVC-->
+        <scene sceneID="bO9-DK-8up">
+            <objects>
+                <viewController id="eJq-J2-iUN" customClass="classDetailsVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5jA-Kj-Zdo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="bvL-6n-gsj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9hK-mW-YFA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="157" y="-2241"/>
         </scene>
         <!--ClassVC-->
         <scene sceneID="m5J-ry-AFC">
@@ -51,7 +81,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="guk-P7-Poq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="562" y="-1507"/>
+            <point key="canvasLocation" x="157" y="-1513"/>
         </scene>
         <!--ItemsVC-->
         <scene sceneID="zuu-uk-7sy">
@@ -66,7 +96,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CN4-T2-DNH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1372" y="-1507"/>
+            <point key="canvasLocation" x="967" y="-1513"/>
         </scene>
         <!--SpellsVC-->
         <scene sceneID="Tgv-Bc-yUE">
@@ -81,7 +111,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BWd-q4-LlP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2190" y="-1507"/>
+            <point key="canvasLocation" x="1786" y="-1513"/>
+        </scene>
+        <!--FeatsVC-->
+        <scene sceneID="UAx-qU-0iA">
+            <objects>
+                <viewController id="8h4-2T-Sdi" customClass="featsVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1qO-0C-Ojv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="B2b-YN-nkr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uXo-2e-jiX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2607" y="-1513"/>
         </scene>
         <!--HomeVC-->
         <scene sceneID="tne-QT-ifu">
@@ -90,6 +135,20 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QaW-l9-Mlb">
+                                <rect key="frame" x="171" y="289" width="74" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="infoVC"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPg-O1-nsb">
+                                <rect key="frame" x="170" y="489" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -129,6 +188,21 @@
             </objects>
             <point key="canvasLocation" x="964" y="1436"/>
         </scene>
+        <!--ProficienciesVC-->
+        <scene sceneID="pG3-xo-wAa">
+            <objects>
+                <viewController id="pRL-DP-TSX" customClass="proficienciesVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="apR-Zd-9Aw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="8IZ-NJ-Hj9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rbK-R3-F5d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1835" y="1436"/>
+        </scene>
         <!--CreateVC-->
         <scene sceneID="dld-cw-UOM">
             <objects>
@@ -157,7 +231,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nvL-kP-SiE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2719" y="708"/>
+            <point key="canvasLocation" x="2688" y="708"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="f1T-Vm-Yzh">

@@ -13,6 +13,10 @@
 		3660B79B2BAB5A3700766221 /* DNDCC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3660B7992BAB5A3700766221 /* DNDCC.xcdatamodeld */; };
 		3660B79D2BAB5A3900766221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3660B79C2BAB5A3900766221 /* Assets.xcassets */; };
 		3660B7A02BAB5A3900766221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3660B79E2BAB5A3900766221 /* LaunchScreen.storyboard */; };
+		36EA79F62BBB303C0042E534 /* raceDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EA79F52BBB303C0042E534 /* raceDetailsVC.swift */; };
+		36EA79F82BBB305B0042E534 /* classDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EA79F72BBB305B0042E534 /* classDetailsVC.swift */; };
+		36EA79FA2BBB31080042E534 /* proficienciesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EA79F92BBB31080042E534 /* proficienciesVC.swift */; };
+		36EA79FC2BBB31CE0042E534 /* featsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EA79FB2BBB31CE0042E534 /* featsVC.swift */; };
 		36F3707B2BACA74D002DCC99 /* homeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3707A2BACA74D002DCC99 /* homeVC.swift */; };
 		36F3707D2BACA7DB002DCC99 /* infoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3707C2BACA7DB002DCC99 /* infoVC.swift */; };
 		36F3707F2BACA904002DCC99 /* characterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3707E2BACA904002DCC99 /* characterVC.swift */; };
@@ -34,6 +38,10 @@
 		3660B79C2BAB5A3900766221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3660B79F2BAB5A3900766221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3660B7A12BAB5A3900766221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36EA79F52BBB303C0042E534 /* raceDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = raceDetailsVC.swift; sourceTree = "<group>"; };
+		36EA79F72BBB305B0042E534 /* classDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classDetailsVC.swift; sourceTree = "<group>"; };
+		36EA79F92BBB31080042E534 /* proficienciesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proficienciesVC.swift; sourceTree = "<group>"; };
+		36EA79FB2BBB31CE0042E534 /* featsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = featsVC.swift; sourceTree = "<group>"; };
 		36F3707A2BACA74D002DCC99 /* homeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeVC.swift; sourceTree = "<group>"; };
 		36F3707C2BACA7DB002DCC99 /* infoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoVC.swift; sourceTree = "<group>"; };
 		36F3707E2BACA904002DCC99 /* characterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = characterVC.swift; sourceTree = "<group>"; };
@@ -86,9 +94,13 @@
 				36F3707A2BACA74D002DCC99 /* homeVC.swift */,
 				36F3707C2BACA7DB002DCC99 /* infoVC.swift */,
 				36F370862BACAAD8002DCC99 /* raceVC.swift */,
+				36EA79F52BBB303C0042E534 /* raceDetailsVC.swift */,
 				36F370882BACAAE6002DCC99 /* classVC.swift */,
+				36EA79F72BBB305B0042E534 /* classDetailsVC.swift */,
+				36EA79F92BBB31080042E534 /* proficienciesVC.swift */,
 				36F3708A2BACAB03002DCC99 /* spellsVC.swift */,
 				36F3708C2BACABCD002DCC99 /* itemsVC.swift */,
+				36EA79FB2BBB31CE0042E534 /* featsVC.swift */,
 				36F3707E2BACA904002DCC99 /* characterVC.swift */,
 				36F370802BACAAA5002DCC99 /* createVC.swift */,
 				36F370822BACAAB2002DCC99 /* statVC.swift */,
@@ -176,9 +188,13 @@
 				36F370832BACAAB2002DCC99 /* statVC.swift in Sources */,
 				36F370872BACAAD8002DCC99 /* raceVC.swift in Sources */,
 				36F370852BACAAC0002DCC99 /* viewVC.swift in Sources */,
+				36EA79F62BBB303C0042E534 /* raceDetailsVC.swift in Sources */,
+				36EA79FC2BBB31CE0042E534 /* featsVC.swift in Sources */,
 				36F370812BACAAA5002DCC99 /* createVC.swift in Sources */,
 				36F3708D2BACABCD002DCC99 /* itemsVC.swift in Sources */,
 				3660B7932BAB5A3700766221 /* SceneDelegate.swift in Sources */,
+				36EA79FA2BBB31080042E534 /* proficienciesVC.swift in Sources */,
+				36EA79F82BBB305B0042E534 /* classDetailsVC.swift in Sources */,
 				36F370892BACAAE6002DCC99 /* classVC.swift in Sources */,
 				36F3707D2BACA7DB002DCC99 /* infoVC.swift in Sources */,
 			);
