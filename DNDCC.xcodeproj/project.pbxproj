@@ -27,6 +27,7 @@
 		36F370892BACAAE6002DCC99 /* classTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F370882BACAAE6002DCC99 /* classTVC.swift */; };
 		36F3708B2BACAB03002DCC99 /* spellsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3708A2BACAB03002DCC99 /* spellsTVC.swift */; };
 		36F3708D2BACABCD002DCC99 /* itemsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3708C2BACABCD002DCC99 /* itemsTVC.swift */; };
+		42AD31662BBC81D100D80366 /* spell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AD31652BBC81D100D80366 /* spell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		36F370882BACAAE6002DCC99 /* classTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classTVC.swift; sourceTree = "<group>"; };
 		36F3708A2BACAB03002DCC99 /* spellsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spellsTVC.swift; sourceTree = "<group>"; };
 		36F3708C2BACABCD002DCC99 /* itemsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemsTVC.swift; sourceTree = "<group>"; };
+		42AD31652BBC81D100D80366 /* spell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			children = (
 				364314D72BBC7CF200357A29 /* Character Vc's */,
 				364314D62BBC7CD100357A29 /* Info VC's */,
+				42AD31642BBC819500D80366 /* Objects */,
 				3660B7902BAB5A3700766221 /* AppDelegate.swift */,
 				3660B7922BAB5A3700766221 /* SceneDelegate.swift */,
 				3660B7962BAB5A3700766221 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				36F3707A2BACA74D002DCC99 /* homeVC.swift */,
 			);
 			path = DNDCC;
+			sourceTree = "<group>";
+		};
+		42AD31642BBC819500D80366 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				42AD31652BBC81D100D80366 /* spell.swift */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +213,7 @@
 				36F3707F2BACA904002DCC99 /* characterTVC.swift in Sources */,
 				3660B79B2BAB5A3700766221 /* DNDCC.xcdatamodeld in Sources */,
 				36F370832BACAAB2002DCC99 /* statVC.swift in Sources */,
+				42AD31662BBC81D100D80366 /* spell.swift in Sources */,
 				36F370872BACAAD8002DCC99 /* raceTVC.swift in Sources */,
 				36F370852BACAAC0002DCC99 /* viewVC.swift in Sources */,
 				36EA79F62BBB303C0042E534 /* raceDetailsVC.swift in Sources */,
