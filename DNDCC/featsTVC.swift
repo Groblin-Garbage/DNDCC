@@ -1,13 +1,13 @@
 //
-//  classVC.swift
+//  featsVC.swift
 //  DNDCC
 //
-//  Created by Genghis Khan on 3/21/24.
+//  Created by Genghis Khan on 4/1/24.
 //
 
 import UIKit
 
-class classVC: UIViewController {
+class featsTVC: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -1,5 +1,5 @@
 //
-//  itemsVC.swift
+//  spellsVC.swift
 //  DNDCC
 //
 //  Created by Genghis Khan on 3/21/24.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class itemsVC: UIViewController {
+class spellsTVC: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

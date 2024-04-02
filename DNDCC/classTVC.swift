@@ -1,5 +1,5 @@
 //
-//  raceVC.swift
+//  classVC.swift
 //  DNDCC
 //
 //  Created by Genghis Khan on 3/21/24.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class raceVC: UIViewController {
+class classTVC: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
