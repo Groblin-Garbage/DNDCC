@@ -27,6 +27,12 @@
 		36F370892BACAAE6002DCC99 /* classTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F370882BACAAE6002DCC99 /* classTVC.swift */; };
 		36F3708B2BACAB03002DCC99 /* spellsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3708A2BACAB03002DCC99 /* spellsTVC.swift */; };
 		36F3708D2BACABCD002DCC99 /* itemsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3708C2BACABCD002DCC99 /* itemsTVC.swift */; };
+		42518EA62BBDCF51003FBB63 /* classObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42518EA52BBDCF51003FBB63 /* classObject.swift */; };
+		42518EAA2BBDCFB6003FBB63 /* characterObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42518EA92BBDCFB6003FBB63 /* characterObject.swift */; };
+		42518EAC2BBDCFD6003FBB63 /* race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42518EAB2BBDCFD6003FBB63 /* race.swift */; };
+		42518EAE2BBDD007003FBB63 /* background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42518EAD2BBDD007003FBB63 /* background.swift */; };
+		42518EB02BBDD013003FBB63 /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42518EAF2BBDD013003FBB63 /* item.swift */; };
+		42518EB42BBDD06A003FBB63 /* proficiency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42518EB32BBDD06A003FBB63 /* proficiency.swift */; };
 		42AD31662BBC81D100D80366 /* spell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AD31652BBC81D100D80366 /* spell.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +59,12 @@
 		36F370882BACAAE6002DCC99 /* classTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classTVC.swift; sourceTree = "<group>"; };
 		36F3708A2BACAB03002DCC99 /* spellsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spellsTVC.swift; sourceTree = "<group>"; };
 		36F3708C2BACABCD002DCC99 /* itemsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemsTVC.swift; sourceTree = "<group>"; };
+		42518EA52BBDCF51003FBB63 /* classObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classObject.swift; sourceTree = "<group>"; };
+		42518EA92BBDCFB6003FBB63 /* characterObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = characterObject.swift; sourceTree = "<group>"; };
+		42518EAB2BBDCFD6003FBB63 /* race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = race.swift; sourceTree = "<group>"; };
+		42518EAD2BBDD007003FBB63 /* background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = background.swift; sourceTree = "<group>"; };
+		42518EAF2BBDD013003FBB63 /* item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = "<group>"; };
+		42518EB32BBDD06A003FBB63 /* proficiency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proficiency.swift; sourceTree = "<group>"; };
 		42AD31652BBC81D100D80366 /* spell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,7 +143,13 @@
 		42AD31642BBC819500D80366 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				42518EA92BBDCFB6003FBB63 /* characterObject.swift */,
+				42518EA52BBDCF51003FBB63 /* classObject.swift */,
+				42518EAB2BBDCFD6003FBB63 /* race.swift */,
+				42518EAD2BBDD007003FBB63 /* background.swift */,
 				42AD31652BBC81D100D80366 /* spell.swift */,
+				42518EAF2BBDD013003FBB63 /* item.swift */,
+				42518EB32BBDD06A003FBB63 /* proficiency.swift */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -211,6 +229,11 @@
 				36F3708B2BACAB03002DCC99 /* spellsTVC.swift in Sources */,
 				36F3707B2BACA74D002DCC99 /* homeVC.swift in Sources */,
 				36F3707F2BACA904002DCC99 /* characterTVC.swift in Sources */,
+				42518EB02BBDD013003FBB63 /* item.swift in Sources */,
+				42518EAA2BBDCFB6003FBB63 /* characterObject.swift in Sources */,
+				42518EAE2BBDD007003FBB63 /* background.swift in Sources */,
+				42518EB42BBDD06A003FBB63 /* proficiency.swift in Sources */,
+				42518EA62BBDCF51003FBB63 /* classObject.swift in Sources */,
 				3660B79B2BAB5A3700766221 /* DNDCC.xcdatamodeld in Sources */,
 				36F370832BACAAB2002DCC99 /* statVC.swift in Sources */,
 				42AD31662BBC81D100D80366 /* spell.swift in Sources */,
@@ -223,6 +246,7 @@
 				3660B7932BAB5A3700766221 /* SceneDelegate.swift in Sources */,
 				36EA79FA2BBB31080042E534 /* proficienciesVC.swift in Sources */,
 				36EA79F82BBB305B0042E534 /* classDetailsVC.swift in Sources */,
+				42518EAC2BBDCFD6003FBB63 /* race.swift in Sources */,
 				36F370892BACAAE6002DCC99 /* classTVC.swift in Sources */,
 				36F3707D2BACA7DB002DCC99 /* infoVC.swift in Sources */,
 			);
