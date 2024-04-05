@@ -7,7 +7,7 @@
 
 import Foundation
 
-class item {
+class itemObject {
     
     
     

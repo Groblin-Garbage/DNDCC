@@ -29,11 +29,16 @@
 		36F3708D2BACABCD002DCC99 /* itemsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3708C2BACABCD002DCC99 /* itemsTVC.swift */; };
 		42518EA62BBDCF51003FBB63 /* classObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42518EA52BBDCF51003FBB63 /* classObject.swift */; };
 		42518EAA2BBDCFB6003FBB63 /* characterObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42518EA92BBDCFB6003FBB63 /* characterObject.swift */; };
-		42518EAC2BBDCFD6003FBB63 /* race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42518EAB2BBDCFD6003FBB63 /* race.swift */; };
-		42518EAE2BBDD007003FBB63 /* background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42518EAD2BBDD007003FBB63 /* background.swift */; };
-		42518EB02BBDD013003FBB63 /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42518EAF2BBDD013003FBB63 /* item.swift */; };
-		42518EB42BBDD06A003FBB63 /* proficiency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42518EB32BBDD06A003FBB63 /* proficiency.swift */; };
-		42AD31662BBC81D100D80366 /* spell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AD31652BBC81D100D80366 /* spell.swift */; };
+		42518EAC2BBDCFD6003FBB63 /* raceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42518EAB2BBDCFD6003FBB63 /* raceObject.swift */; };
+		42518EAE2BBDD007003FBB63 /* backgroundObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42518EAD2BBDD007003FBB63 /* backgroundObject.swift */; };
+		42518EB02BBDD013003FBB63 /* itemObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42518EAF2BBDD013003FBB63 /* itemObject.swift */; };
+		42518EB42BBDD06A003FBB63 /* proficiencyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42518EB32BBDD06A003FBB63 /* proficiencyObject.swift */; };
+		42AA16D72BC039D700825489 /* weaponObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AA16D62BC039D700825489 /* weaponObject.swift */; };
+		42AA16D92BC039E600825489 /* magicItemObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AA16D82BC039E600825489 /* magicItemObject.swift */; };
+		42AA16DB2BC039FA00825489 /* armorObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AA16DA2BC039FA00825489 /* armorObject.swift */; };
+		42AA16DD2BC03A3D00825489 /* miscObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AA16DC2BC03A3D00825489 /* miscObject.swift */; };
+		42AA16DF2BC03B0800825489 /* languageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AA16DE2BC03B0800825489 /* languageObject.swift */; };
+		42AD31662BBC81D100D80366 /* spellObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AD31652BBC81D100D80366 /* spellObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,11 +66,16 @@
 		36F3708C2BACABCD002DCC99 /* itemsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemsTVC.swift; sourceTree = "<group>"; };
 		42518EA52BBDCF51003FBB63 /* classObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classObject.swift; sourceTree = "<group>"; };
 		42518EA92BBDCFB6003FBB63 /* characterObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = characterObject.swift; sourceTree = "<group>"; };
-		42518EAB2BBDCFD6003FBB63 /* race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = race.swift; sourceTree = "<group>"; };
-		42518EAD2BBDD007003FBB63 /* background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = background.swift; sourceTree = "<group>"; };
-		42518EAF2BBDD013003FBB63 /* item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = "<group>"; };
-		42518EB32BBDD06A003FBB63 /* proficiency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proficiency.swift; sourceTree = "<group>"; };
-		42AD31652BBC81D100D80366 /* spell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spell.swift; sourceTree = "<group>"; };
+		42518EAB2BBDCFD6003FBB63 /* raceObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = raceObject.swift; sourceTree = "<group>"; };
+		42518EAD2BBDD007003FBB63 /* backgroundObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backgroundObject.swift; sourceTree = "<group>"; };
+		42518EAF2BBDD013003FBB63 /* itemObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemObject.swift; sourceTree = "<group>"; };
+		42518EB32BBDD06A003FBB63 /* proficiencyObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proficiencyObject.swift; sourceTree = "<group>"; };
+		42AA16D62BC039D700825489 /* weaponObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weaponObject.swift; sourceTree = "<group>"; };
+		42AA16D82BC039E600825489 /* magicItemObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = magicItemObject.swift; sourceTree = "<group>"; };
+		42AA16DA2BC039FA00825489 /* armorObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = armorObject.swift; sourceTree = "<group>"; };
+		42AA16DC2BC03A3D00825489 /* miscObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miscObject.swift; sourceTree = "<group>"; };
+		42AA16DE2BC03B0800825489 /* languageObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = languageObject.swift; sourceTree = "<group>"; };
+		42AD31652BBC81D100D80366 /* spellObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spellObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,16 +150,29 @@
 			path = DNDCC;
 			sourceTree = "<group>";
 		};
+		42AA16D52BC039B500825489 /* itemTypes */ = {
+			isa = PBXGroup;
+			children = (
+				42AA16D62BC039D700825489 /* weaponObject.swift */,
+				42AA16D82BC039E600825489 /* magicItemObject.swift */,
+				42AA16DA2BC039FA00825489 /* armorObject.swift */,
+				42AA16DC2BC03A3D00825489 /* miscObject.swift */,
+			);
+			path = itemTypes;
+			sourceTree = "<group>";
+		};
 		42AD31642BBC819500D80366 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
 				42518EA92BBDCFB6003FBB63 /* characterObject.swift */,
 				42518EA52BBDCF51003FBB63 /* classObject.swift */,
-				42518EAB2BBDCFD6003FBB63 /* race.swift */,
-				42518EAD2BBDD007003FBB63 /* background.swift */,
-				42AD31652BBC81D100D80366 /* spell.swift */,
-				42518EAF2BBDD013003FBB63 /* item.swift */,
-				42518EB32BBDD06A003FBB63 /* proficiency.swift */,
+				42518EAB2BBDCFD6003FBB63 /* raceObject.swift */,
+				42518EAD2BBDD007003FBB63 /* backgroundObject.swift */,
+				42AD31652BBC81D100D80366 /* spellObject.swift */,
+				42518EB32BBDD06A003FBB63 /* proficiencyObject.swift */,
+				42AA16DE2BC03B0800825489 /* languageObject.swift */,
+				42518EAF2BBDD013003FBB63 /* itemObject.swift */,
+				42AA16D52BC039B500825489 /* itemTypes */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -229,14 +252,19 @@
 				36F3708B2BACAB03002DCC99 /* spellsTVC.swift in Sources */,
 				36F3707B2BACA74D002DCC99 /* homeVC.swift in Sources */,
 				36F3707F2BACA904002DCC99 /* characterTVC.swift in Sources */,
-				42518EB02BBDD013003FBB63 /* item.swift in Sources */,
+				42518EB02BBDD013003FBB63 /* itemObject.swift in Sources */,
+				42AA16D72BC039D700825489 /* weaponObject.swift in Sources */,
+				42AA16DD2BC03A3D00825489 /* miscObject.swift in Sources */,
 				42518EAA2BBDCFB6003FBB63 /* characterObject.swift in Sources */,
-				42518EAE2BBDD007003FBB63 /* background.swift in Sources */,
-				42518EB42BBDD06A003FBB63 /* proficiency.swift in Sources */,
+				42518EAE2BBDD007003FBB63 /* backgroundObject.swift in Sources */,
+				42518EB42BBDD06A003FBB63 /* proficiencyObject.swift in Sources */,
 				42518EA62BBDCF51003FBB63 /* classObject.swift in Sources */,
 				3660B79B2BAB5A3700766221 /* DNDCC.xcdatamodeld in Sources */,
+				42AA16DB2BC039FA00825489 /* armorObject.swift in Sources */,
+				42AA16D92BC039E600825489 /* magicItemObject.swift in Sources */,
 				36F370832BACAAB2002DCC99 /* statVC.swift in Sources */,
-				42AD31662BBC81D100D80366 /* spell.swift in Sources */,
+				42AD31662BBC81D100D80366 /* spellObject.swift in Sources */,
+				42AA16DF2BC03B0800825489 /* languageObject.swift in Sources */,
 				36F370872BACAAD8002DCC99 /* raceTVC.swift in Sources */,
 				36F370852BACAAC0002DCC99 /* viewVC.swift in Sources */,
 				36EA79F62BBB303C0042E534 /* raceDetailsVC.swift in Sources */,
@@ -246,7 +274,7 @@
 				3660B7932BAB5A3700766221 /* SceneDelegate.swift in Sources */,
 				36EA79FA2BBB31080042E534 /* proficienciesVC.swift in Sources */,
 				36EA79F82BBB305B0042E534 /* classDetailsVC.swift in Sources */,
-				42518EAC2BBDCFD6003FBB63 /* race.swift in Sources */,
+				42518EAC2BBDCFD6003FBB63 /* raceObject.swift in Sources */,
 				36F370892BACAAE6002DCC99 /* classTVC.swift in Sources */,
 				36F3707D2BACA7DB002DCC99 /* infoVC.swift in Sources */,
 			);

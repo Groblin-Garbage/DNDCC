@@ -7,7 +7,7 @@
 
 import Foundation
 
-class race {
+class raceObject {
     
     
     

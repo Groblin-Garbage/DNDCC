@@ -7,7 +7,7 @@
 
 import Foundation
 
-class background {
+class backgroundObject {
     var description: String
     var proficiencies: [String]
     var languages: [String]

@@ -7,7 +7,7 @@
 
 import Foundation
 
-class spell {
+class spellObject {
     var level: Int
     var verbal: Bool
     var somatic: Bool

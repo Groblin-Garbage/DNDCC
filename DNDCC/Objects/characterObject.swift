@@ -10,9 +10,11 @@ import Foundation
 class characterObject {
 //    var level: Int
 //    var classObject: classObject
-//    var race: race
-//    var background: background
-//    var proficiencies: [proficiency]
+////    var subclass: subclass
+//    var race: raceObject
+////    var subrace: subrace
+//    var background: backgroundObject
+//    var proficiencies: [proficiencyObject]
 //    var profBonus: Int
 //
 //    var strength: Int
