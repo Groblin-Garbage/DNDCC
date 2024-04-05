@@ -1,5 +1,5 @@
 //
-//  classVC.swift
+//  infoVC.swift
 //  DNDCC
 //
 //  Created by Genghis Khan on 3/21/24.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class classTVC: UITableViewController {
+class InfoVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

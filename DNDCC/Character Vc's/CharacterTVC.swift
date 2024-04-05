@@ -7,7 +7,7 @@
 
 import UIKit
 
-class characterTVC: UITableViewController {
+class CharacterTVC: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

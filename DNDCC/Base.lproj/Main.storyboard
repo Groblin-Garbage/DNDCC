@@ -278,21 +278,6 @@
             </objects>
             <point key="canvasLocation" x="964" y="1436"/>
         </scene>
-        <!--ProficienciesVC-->
-        <scene sceneID="pG3-xo-wAa">
-            <objects>
-                <viewController id="pRL-DP-TSX" customClass="proficienciesVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="apR-Zd-9Aw">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="8IZ-NJ-Hj9"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rbK-R3-F5d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1835" y="1436"/>
-        </scene>
         <!--CharacterTVC-->
         <scene sceneID="bqC-iI-FQB">
             <objects>
@@ -316,7 +301,19 @@
                             <outlet property="delegate" destination="KJi-6u-flZ" id="U0J-GW-axk"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="8Cy-cp-hZb"/>
+                    <navigationItem key="navigationItem" id="8Cy-cp-hZb">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="1nV-Kk-Tnt">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="FfU-E2-nXQ">
+                                <rect key="frame" x="302" y="5" width="92" height="34.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Create"/>
+                            </button>
+                            <connections>
+                                <segue destination="dtO-D8-eSA" kind="show" id="cIW-eu-zCo"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LN9-B0-VWs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -330,45 +327,95 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Character Name" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GmO-G0-oVe">
-                                <rect key="frame" x="20" y="92" width="128" height="34"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="BF2-CN-LIz">
+                                <rect key="frame" x="20" y="92" width="270" height="126.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="Ah0-2P-KhU">
+                                        <rect key="frame" x="0.0" y="0.0" width="270" height="34"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Character Name" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GmO-G0-oVe">
+                                                <rect key="frame" x="0.0" y="0.0" width="134" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="afy-eF-xSe">
+                                                <rect key="frame" x="161" y="0.0" width="41" height="34"/>
+                                                <menu key="menu" id="WTM-MN-p5E">
+                                                    <children>
+                                                        <command title="Item 1" id="Vkb-6i-gJR"/>
+                                                        <command title="Item 2" id="Mab-PK-4UC"/>
+                                                    </children>
+                                                </menu>
+                                                <state key="normal" title="Background"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eey-fo-mQ7">
+                                                <rect key="frame" x="229" y="0.0" width="41" height="34"/>
+                                                <menu key="menu" id="RUQ-xH-xqK">
+                                                    <children>
+                                                        <command title="Item 1" id="SpI-q5-w7d"/>
+                                                        <command title="Item 2" id="2y2-ll-tfY"/>
+                                                    </children>
+                                                </menu>
+                                                <state key="normal" title="alignment"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X3j-rl-ACB">
+                                        <rect key="frame" x="0.0" y="74" width="270" height="52.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kwI-Xf-0nX">
+                                                <rect key="frame" x="0.0" y="0.0" width="94" height="52.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Level: 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gf1-YY-DxR">
+                                                        <rect key="frame" x="0.0" y="0.0" width="94" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" wraps="YES" value="1" minimumValue="1" maximumValue="20" translatesAutoresizingMaskIntoConstraints="NO" id="xtc-LF-ILG">
+                                                        <rect key="frame" x="0.0" y="20.5" width="94" height="32"/>
+                                                    </stepper>
+                                                </subviews>
+                                            </stackView>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OfI-0q-SXi">
+                                                <rect key="frame" x="94" y="0.0" width="135" height="52.5"/>
+                                                <menu key="menu" id="pDr-kE-t2e">
+                                                    <children>
+                                                        <command title="Item 1" id="Heq-wr-CrB"/>
+                                                        <command title="Item 2" id="F8o-hx-i7U"/>
+                                                    </children>
+                                                </menu>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bxq-4d-x2I">
+                                                <rect key="frame" x="229" y="0.0" width="41" height="52.5"/>
+                                                <menu key="menu" id="ql8-nf-RjD">
+                                                    <children>
+                                                        <command title="Item 1" id="ktf-Ng-zzY"/>
+                                                        <command title="Item 2" id="d8C-uX-pIe"/>
+                                                    </children>
+                                                </menu>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g3l-1X-6SK">
+                                <rect key="frame" x="147" y="473" width="122" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="afy-eF-xSe">
-                                <rect key="frame" x="187" y="94" width="41" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <menu key="menu" id="WTM-MN-p5E">
-                                    <children>
-                                        <command title="Item 1" id="Vkb-6i-gJR"/>
-                                        <command title="Item 2" id="Mab-PK-4UC"/>
-                                    </children>
-                                </menu>
-                                <state key="normal" title="Background"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eey-fo-mQ7">
-                                <rect key="frame" x="315" y="94" width="41" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <menu key="menu" id="RUQ-xH-xqK">
-                                    <children>
-                                        <command title="Item 1" id="SpI-q5-w7d"/>
-                                        <command title="Item 2" id="2y2-ll-tfY"/>
-                                    </children>
-                                </menu>
                                 <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Proficiencies"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Level: 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gf1-YY-DxR">
-                                <rect key="frame" x="187" y="150" width="56" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e8y-fY-BKn">
+                                <rect key="frame" x="175" y="430" width="64" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" wraps="YES" value="1" minimumValue="1" maximumValue="20" translatesAutoresizingMaskIntoConstraints="NO" id="xtc-LF-ILG">
-                                <rect key="frame" x="168" y="179" width="94" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </stepper>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Stats"/>
+                                <connections>
+                                    <segue destination="fW0-F2-kco" kind="show" id="mlu-tx-ErG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="k1B-W9-YAp"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -386,9 +433,21 @@
                     <view key="view" contentMode="scaleToFill" id="1jd-vF-3vP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j7j-Vm-2ZQ">
+                                <rect key="frame" x="177" y="827" width="61" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Save"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="bvs-Ff-5nl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bvs-Ff-5nl" firstAttribute="bottom" secondItem="j7j-Vm-2ZQ" secondAttribute="bottom" id="JhG-iS-h18"/>
+                            <constraint firstItem="j7j-Vm-2ZQ" firstAttribute="centerX" secondItem="bvs-Ff-5nl" secondAttribute="centerX" id="jV1-1v-KV9"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="AB0-8z-9ef"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nvL-kP-SiE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

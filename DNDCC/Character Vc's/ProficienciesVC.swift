@@ -1,13 +1,13 @@
 //
-//  classDetailsVC.swift
+//  proficienciesVC.swift
 //  DNDCC
 //
-//  Created by Genghis Khan on 4/1/24.
+//  Created by Genghis Khan on 4/5/24.
 //
 
 import UIKit
 
-class classDetailsVC: UIViewController {
+class ProficienciesVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

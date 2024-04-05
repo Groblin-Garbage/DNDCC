@@ -7,7 +7,7 @@
 
 import UIKit
 
-class raceDetailsVC: UIViewController {
+class RaceDetailsVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

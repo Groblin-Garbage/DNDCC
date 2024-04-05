@@ -1,13 +1,13 @@
 //
-//  infoVC.swift
+//  statVC.swift
 //  DNDCC
 //
-//  Created by Genghis Khan on 3/21/24.
+//  Created by Genghis Khan on 4/5/24.
 //
 
 import UIKit
 
-class infoVC: UIViewController {
+class StatVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
