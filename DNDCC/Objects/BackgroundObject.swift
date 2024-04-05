@@ -7,15 +7,15 @@
 
 import Foundation
 
-class backgroundObject {
+class BackgroundObject {
     var description: String
     var proficiencies: [String]
     var languages: [String]
-    var equipment: [item]
+    var equipment: [itemObject]
     var feature: [String]
     var baseGP: Int
     
-    init(description: String, proficiencies: [String], languages: [String], equipment: [item], feature: [String], baseGP: Int) {
+    init(description: String, proficiencies: [String], languages: [String], equipment: [itemObject], feature: [String], baseGP: Int) {
         self.description = description
         self.proficiencies = proficiencies
         self.languages = languages
