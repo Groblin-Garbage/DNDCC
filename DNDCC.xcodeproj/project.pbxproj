@@ -65,33 +65,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		364314D62BBC7CD100357A29 /* Info VC's */ = {
-			isa = PBXGroup;
-			children = (
-				36F3707C2BACA7DB002DCC99 /* InfoVC.swift */,
-				36F370862BACAAD8002DCC99 /* RaceTVC.swift */,
-				36EA79F52BBB303C0042E534 /* RaceDetailsVC.swift */,
-				36F370882BACAAE6002DCC99 /* ClassTVC.swift */,
-				36EA79F72BBB305B0042E534 /* ClassDetailsVC.swift */,
-				36F3708A2BACAB03002DCC99 /* SpellsTVC.swift */,
-				36F3708C2BACABCD002DCC99 /* ItemsTVC.swift */,
-				36EA79FB2BBB31CE0042E534 /* FeatsTVC.swift */,
-			);
-			name = "Info VC's";
-			sourceTree = "<group>";
-		};
-		364314D72BBC7CF200357A29 /* Character Vc's */ = {
-			isa = PBXGroup;
-			children = (
-				36C8903B2BC03E96007D5EEB /* CharacterTVC.swift */,
-				36C890392BC03E5E007D5EEB /* CreateVC.swift */,
-				36C8903F2BC03EE9007D5EEB /* StatVC.swift */,
-				36C890412BC03F0E007D5EEB /* ProficienciesVC.swift */,
-				36C8903D2BC03ECC007D5EEB /* ViewVC.swift */,
-			);
-			path = "Character Vc's";
-			sourceTree = "<group>";
-		};
 		3660B7842BAB5A3700766221 = {
 			isa = PBXGroup;
 			children = (
@@ -111,8 +84,19 @@
 		3660B78F2BAB5A3700766221 /* DNDCC */ = {
 			isa = PBXGroup;
 			children = (
-				364314D72BBC7CF200357A29 /* Character Vc's */,
-				364314D62BBC7CD100357A29 /* Info VC's */,
+				36C8903B2BC03E96007D5EEB /* CharacterTVC.swift */,
+				36C890392BC03E5E007D5EEB /* CreateVC.swift */,
+				36C8903F2BC03EE9007D5EEB /* StatVC.swift */,
+				36C890412BC03F0E007D5EEB /* ProficienciesVC.swift */,
+				36C8903D2BC03ECC007D5EEB /* ViewVC.swift */,
+				36F3707C2BACA7DB002DCC99 /* InfoVC.swift */,
+				36F370862BACAAD8002DCC99 /* RaceTVC.swift */,
+				36EA79F52BBB303C0042E534 /* RaceDetailsVC.swift */,
+				36F370882BACAAE6002DCC99 /* ClassTVC.swift */,
+				36EA79F72BBB305B0042E534 /* ClassDetailsVC.swift */,
+				36F3708A2BACAB03002DCC99 /* SpellsTVC.swift */,
+				36F3708C2BACABCD002DCC99 /* ItemsTVC.swift */,
+				36EA79FB2BBB31CE0042E534 /* FeatsTVC.swift */,
 				3660B7902BAB5A3700766221 /* AppDelegate.swift */,
 				3660B7922BAB5A3700766221 /* SceneDelegate.swift */,
 				3660B7962BAB5A3700766221 /* Main.storyboard */,
