@@ -7,22 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		361BD8B82BD0457D00CE6F5F /* SubclassObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BD8A72BD0457D00CE6F5F /* SubclassObject.swift */; };
-		361BD8B92BD0457D00CE6F5F /* SpellObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BD8A82BD0457D00CE6F5F /* SpellObject.swift */; };
-		361BD8BA2BD0457D00CE6F5F /* ClassObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BD8A92BD0457D00CE6F5F /* ClassObject.swift */; };
-		361BD8BB2BD0457D00CE6F5F /* character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BD8AA2BD0457D00CE6F5F /* character.swift */; };
-		361BD8BC2BD0457D00CE6F5F /* languageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BD8AB2BD0457D00CE6F5F /* languageObject.swift */; };
-		361BD8BD2BD0457D00CE6F5F /* CharacterObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BD8AC2BD0457D00CE6F5F /* CharacterObject.swift */; };
-		361BD8BE2BD0457D00CE6F5F /* ProficiencyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BD8AD2BD0457D00CE6F5F /* ProficiencyObject.swift */; };
-		361BD8BF2BD0457D00CE6F5F /* ItemObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BD8AE2BD0457D00CE6F5F /* ItemObject.swift */; };
-		361BD8C02BD0457D00CE6F5F /* BackgroundObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BD8AF2BD0457D00CE6F5F /* BackgroundObject.swift */; };
-		361BD8C12BD0457D00CE6F5F /* class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BD8B02BD0457D00CE6F5F /* class.swift */; };
-		361BD8C22BD0457D00CE6F5F /* WeaponObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BD8B22BD0457D00CE6F5F /* WeaponObject.swift */; };
-		361BD8C32BD0457D00CE6F5F /* MiscObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BD8B32BD0457D00CE6F5F /* MiscObject.swift */; };
-		361BD8C42BD0457D00CE6F5F /* MagicItemObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BD8B42BD0457D00CE6F5F /* MagicItemObject.swift */; };
-		361BD8C52BD0457D00CE6F5F /* ArmorObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BD8B52BD0457D00CE6F5F /* ArmorObject.swift */; };
-		361BD8C62BD0457D00CE6F5F /* SubraceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BD8B62BD0457D00CE6F5F /* SubraceObject.swift */; };
-		361BD8C72BD0457D00CE6F5F /* RaceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BD8B72BD0457D00CE6F5F /* RaceObject.swift */; };
 		3660B7912BAB5A3700766221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3660B7902BAB5A3700766221 /* AppDelegate.swift */; };
 		3660B7932BAB5A3700766221 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3660B7922BAB5A3700766221 /* SceneDelegate.swift */; };
 		3660B7982BAB5A3700766221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3660B7962BAB5A3700766221 /* Main.storyboard */; };
@@ -43,25 +27,22 @@
 		36F370892BACAAE6002DCC99 /* ClassTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F370882BACAAE6002DCC99 /* ClassTVC.swift */; };
 		36F3708B2BACAB03002DCC99 /* SpellsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3708A2BACAB03002DCC99 /* SpellsTVC.swift */; };
 		36F3708D2BACABCD002DCC99 /* ItemsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3708C2BACABCD002DCC99 /* ItemsTVC.swift */; };
+		42A4FEDE2BD047AA00171331 /* SubclassObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4FED02BD047A900171331 /* SubclassObject.swift */; };
+		42A4FEDF2BD047AA00171331 /* SpellObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4FED12BD047A900171331 /* SpellObject.swift */; };
+		42A4FEE02BD047AA00171331 /* ClassObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4FED22BD047A900171331 /* ClassObject.swift */; };
+		42A4FEE12BD047AA00171331 /* CharacterObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4FED32BD047A900171331 /* CharacterObject.swift */; };
+		42A4FEE22BD047AA00171331 /* ProficiencyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4FED42BD047A900171331 /* ProficiencyObject.swift */; };
+		42A4FEE32BD047AA00171331 /* ItemObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4FED52BD047A900171331 /* ItemObject.swift */; };
+		42A4FEE42BD047AA00171331 /* BackgroundObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4FED62BD047A900171331 /* BackgroundObject.swift */; };
+		42A4FEE52BD047AA00171331 /* WeaponObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4FED82BD047A900171331 /* WeaponObject.swift */; };
+		42A4FEE62BD047AA00171331 /* MiscObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4FED92BD047A900171331 /* MiscObject.swift */; };
+		42A4FEE72BD047AA00171331 /* MagicItemObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4FEDA2BD047A900171331 /* MagicItemObject.swift */; };
+		42A4FEE82BD047AA00171331 /* ArmorObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4FEDB2BD047A900171331 /* ArmorObject.swift */; };
+		42A4FEE92BD047AA00171331 /* SubraceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4FEDC2BD047A900171331 /* SubraceObject.swift */; };
+		42A4FEEA2BD047AA00171331 /* RaceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4FEDD2BD047A900171331 /* RaceObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		361BD8A72BD0457D00CE6F5F /* SubclassObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubclassObject.swift; sourceTree = "<group>"; };
-		361BD8A82BD0457D00CE6F5F /* SpellObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpellObject.swift; sourceTree = "<group>"; };
-		361BD8A92BD0457D00CE6F5F /* ClassObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassObject.swift; sourceTree = "<group>"; };
-		361BD8AA2BD0457D00CE6F5F /* character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = character.swift; sourceTree = "<group>"; };
-		361BD8AB2BD0457D00CE6F5F /* languageObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = languageObject.swift; sourceTree = "<group>"; };
-		361BD8AC2BD0457D00CE6F5F /* CharacterObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterObject.swift; sourceTree = "<group>"; };
-		361BD8AD2BD0457D00CE6F5F /* ProficiencyObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProficiencyObject.swift; sourceTree = "<group>"; };
-		361BD8AE2BD0457D00CE6F5F /* ItemObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemObject.swift; sourceTree = "<group>"; };
-		361BD8AF2BD0457D00CE6F5F /* BackgroundObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundObject.swift; sourceTree = "<group>"; };
-		361BD8B02BD0457D00CE6F5F /* class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = class.swift; sourceTree = "<group>"; };
-		361BD8B22BD0457D00CE6F5F /* WeaponObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaponObject.swift; sourceTree = "<group>"; };
-		361BD8B32BD0457D00CE6F5F /* MiscObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiscObject.swift; sourceTree = "<group>"; };
-		361BD8B42BD0457D00CE6F5F /* MagicItemObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicItemObject.swift; sourceTree = "<group>"; };
-		361BD8B52BD0457D00CE6F5F /* ArmorObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArmorObject.swift; sourceTree = "<group>"; };
-		361BD8B62BD0457D00CE6F5F /* SubraceObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubraceObject.swift; sourceTree = "<group>"; };
-		361BD8B72BD0457D00CE6F5F /* RaceObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceObject.swift; sourceTree = "<group>"; };
 		3660B78D2BAB5A3700766221 /* DNDCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNDCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3660B7902BAB5A3700766221 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3660B7922BAB5A3700766221 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +65,19 @@
 		36F370882BACAAE6002DCC99 /* ClassTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTVC.swift; sourceTree = "<group>"; };
 		36F3708A2BACAB03002DCC99 /* SpellsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellsTVC.swift; sourceTree = "<group>"; };
 		36F3708C2BACABCD002DCC99 /* ItemsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTVC.swift; sourceTree = "<group>"; };
+		42A4FED02BD047A900171331 /* SubclassObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubclassObject.swift; sourceTree = "<group>"; };
+		42A4FED12BD047A900171331 /* SpellObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpellObject.swift; sourceTree = "<group>"; };
+		42A4FED22BD047A900171331 /* ClassObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassObject.swift; sourceTree = "<group>"; };
+		42A4FED32BD047A900171331 /* CharacterObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterObject.swift; sourceTree = "<group>"; };
+		42A4FED42BD047A900171331 /* ProficiencyObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProficiencyObject.swift; sourceTree = "<group>"; };
+		42A4FED52BD047A900171331 /* ItemObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemObject.swift; sourceTree = "<group>"; };
+		42A4FED62BD047A900171331 /* BackgroundObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundObject.swift; sourceTree = "<group>"; };
+		42A4FED82BD047A900171331 /* WeaponObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaponObject.swift; sourceTree = "<group>"; };
+		42A4FED92BD047A900171331 /* MiscObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiscObject.swift; sourceTree = "<group>"; };
+		42A4FEDA2BD047A900171331 /* MagicItemObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicItemObject.swift; sourceTree = "<group>"; };
+		42A4FEDB2BD047A900171331 /* ArmorObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArmorObject.swift; sourceTree = "<group>"; };
+		42A4FEDC2BD047A900171331 /* SubraceObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubraceObject.swift; sourceTree = "<group>"; };
+		42A4FEDD2BD047A900171331 /* RaceObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,38 +91,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		361BD8A62BD0457D00CE6F5F /* Objects */ = {
-			isa = PBXGroup;
-			children = (
-				361BD8A72BD0457D00CE6F5F /* SubclassObject.swift */,
-				361BD8A82BD0457D00CE6F5F /* SpellObject.swift */,
-				361BD8A92BD0457D00CE6F5F /* ClassObject.swift */,
-				361BD8AA2BD0457D00CE6F5F /* character.swift */,
-				361BD8AB2BD0457D00CE6F5F /* languageObject.swift */,
-				361BD8AC2BD0457D00CE6F5F /* CharacterObject.swift */,
-				361BD8AD2BD0457D00CE6F5F /* ProficiencyObject.swift */,
-				361BD8AE2BD0457D00CE6F5F /* ItemObject.swift */,
-				361BD8AF2BD0457D00CE6F5F /* BackgroundObject.swift */,
-				361BD8B02BD0457D00CE6F5F /* class.swift */,
-				361BD8B12BD0457D00CE6F5F /* itemTypes */,
-				361BD8B62BD0457D00CE6F5F /* SubraceObject.swift */,
-				361BD8B72BD0457D00CE6F5F /* RaceObject.swift */,
-			);
-			name = Objects;
-			path = ../../../../../../../Desktop/Objects;
-			sourceTree = "<group>";
-		};
-		361BD8B12BD0457D00CE6F5F /* itemTypes */ = {
-			isa = PBXGroup;
-			children = (
-				361BD8B22BD0457D00CE6F5F /* WeaponObject.swift */,
-				361BD8B32BD0457D00CE6F5F /* MiscObject.swift */,
-				361BD8B42BD0457D00CE6F5F /* MagicItemObject.swift */,
-				361BD8B52BD0457D00CE6F5F /* ArmorObject.swift */,
-			);
-			path = itemTypes;
-			sourceTree = "<group>";
-		};
 		3660B7842BAB5A3700766221 = {
 			isa = PBXGroup;
 			children = (
@@ -161,7 +123,7 @@
 				36F3708A2BACAB03002DCC99 /* SpellsTVC.swift */,
 				36F3708C2BACABCD002DCC99 /* ItemsTVC.swift */,
 				36EA79FB2BBB31CE0042E534 /* FeatsTVC.swift */,
-				361BD8A62BD0457D00CE6F5F /* Objects */,
+				42A4FECF2BD047A900171331 /* Objects */,
 				3660B7902BAB5A3700766221 /* AppDelegate.swift */,
 				3660B7922BAB5A3700766221 /* SceneDelegate.swift */,
 				3660B7962BAB5A3700766221 /* Main.storyboard */,
@@ -172,6 +134,35 @@
 				36F3707A2BACA74D002DCC99 /* homeVC.swift */,
 			);
 			path = DNDCC;
+			sourceTree = "<group>";
+		};
+		42A4FECF2BD047A900171331 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				42A4FED02BD047A900171331 /* SubclassObject.swift */,
+				42A4FED12BD047A900171331 /* SpellObject.swift */,
+				42A4FED22BD047A900171331 /* ClassObject.swift */,
+				42A4FED32BD047A900171331 /* CharacterObject.swift */,
+				42A4FED42BD047A900171331 /* ProficiencyObject.swift */,
+				42A4FED52BD047A900171331 /* ItemObject.swift */,
+				42A4FED62BD047A900171331 /* BackgroundObject.swift */,
+				42A4FED72BD047A900171331 /* itemTypes */,
+				42A4FEDC2BD047A900171331 /* SubraceObject.swift */,
+				42A4FEDD2BD047A900171331 /* RaceObject.swift */,
+			);
+			name = Objects;
+			path = ../../../../Desktop/DNDCC/DNDCC/Objects;
+			sourceTree = "<group>";
+		};
+		42A4FED72BD047A900171331 /* itemTypes */ = {
+			isa = PBXGroup;
+			children = (
+				42A4FED82BD047A900171331 /* WeaponObject.swift */,
+				42A4FED92BD047A900171331 /* MiscObject.swift */,
+				42A4FEDA2BD047A900171331 /* MagicItemObject.swift */,
+				42A4FEDB2BD047A900171331 /* ArmorObject.swift */,
+			);
+			path = itemTypes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,38 +236,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42A4FEE82BD047AA00171331 /* ArmorObject.swift in Sources */,
 				3660B7912BAB5A3700766221 /* AppDelegate.swift in Sources */,
-				361BD8BA2BD0457D00CE6F5F /* ClassObject.swift in Sources */,
 				36F3708B2BACAB03002DCC99 /* SpellsTVC.swift in Sources */,
-				361BD8BF2BD0457D00CE6F5F /* ItemObject.swift in Sources */,
 				36C8903C2BC03E96007D5EEB /* CharacterTVC.swift in Sources */,
 				36C890422BC03F0E007D5EEB /* ProficienciesVC.swift in Sources */,
 				36F3707B2BACA74D002DCC99 /* homeVC.swift in Sources */,
-				361BD8BC2BD0457D00CE6F5F /* languageObject.swift in Sources */,
+				42A4FEE92BD047AA00171331 /* SubraceObject.swift in Sources */,
+				42A4FEE42BD047AA00171331 /* BackgroundObject.swift in Sources */,
 				3660B79B2BAB5A3700766221 /* DNDCC.xcdatamodeld in Sources */,
-				361BD8C42BD0457D00CE6F5F /* MagicItemObject.swift in Sources */,
-				361BD8C62BD0457D00CE6F5F /* SubraceObject.swift in Sources */,
-				361BD8B92BD0457D00CE6F5F /* SpellObject.swift in Sources */,
-				361BD8C02BD0457D00CE6F5F /* BackgroundObject.swift in Sources */,
-				361BD8BD2BD0457D00CE6F5F /* CharacterObject.swift in Sources */,
-				361BD8C12BD0457D00CE6F5F /* class.swift in Sources */,
+				42A4FEE12BD047AA00171331 /* CharacterObject.swift in Sources */,
+				42A4FEE02BD047AA00171331 /* ClassObject.swift in Sources */,
+				42A4FEE52BD047AA00171331 /* WeaponObject.swift in Sources */,
+				42A4FEE32BD047AA00171331 /* ItemObject.swift in Sources */,
+				42A4FEE22BD047AA00171331 /* ProficiencyObject.swift in Sources */,
+				42A4FEEA2BD047AA00171331 /* RaceObject.swift in Sources */,
 				36F370872BACAAD8002DCC99 /* RaceTVC.swift in Sources */,
-				361BD8C22BD0457D00CE6F5F /* WeaponObject.swift in Sources */,
 				36EA79F62BBB303C0042E534 /* RaceDetailsVC.swift in Sources */,
 				36EA79FC2BBB31CE0042E534 /* FeatsTVC.swift in Sources */,
+				42A4FEDF2BD047AA00171331 /* SpellObject.swift in Sources */,
 				36C890402BC03EE9007D5EEB /* StatVC.swift in Sources */,
 				36F3708D2BACABCD002DCC99 /* ItemsTVC.swift in Sources */,
+				42A4FEE62BD047AA00171331 /* MiscObject.swift in Sources */,
 				3660B7932BAB5A3700766221 /* SceneDelegate.swift in Sources */,
-				361BD8C52BD0457D00CE6F5F /* ArmorObject.swift in Sources */,
 				36EA79F82BBB305B0042E534 /* ClassDetailsVC.swift in Sources */,
-				361BD8BB2BD0457D00CE6F5F /* character.swift in Sources */,
 				36C8903A2BC03E5E007D5EEB /* CreateVC.swift in Sources */,
 				36F370892BACAAE6002DCC99 /* ClassTVC.swift in Sources */,
-				361BD8BE2BD0457D00CE6F5F /* ProficiencyObject.swift in Sources */,
-				361BD8C72BD0457D00CE6F5F /* RaceObject.swift in Sources */,
+				42A4FEDE2BD047AA00171331 /* SubclassObject.swift in Sources */,
 				36F3707D2BACA7DB002DCC99 /* InfoVC.swift in Sources */,
-				361BD8C32BD0457D00CE6F5F /* MiscObject.swift in Sources */,
-				361BD8B82BD0457D00CE6F5F /* SubclassObject.swift in Sources */,
+				42A4FEE72BD047AA00171331 /* MagicItemObject.swift in Sources */,
 				36C8903E2BC03ECC007D5EEB /* ViewVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
