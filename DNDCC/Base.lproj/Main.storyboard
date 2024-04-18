@@ -12,7 +12,7 @@
         <!--InfoVC-->
         <scene sceneID="iGY-Q6-crY">
             <objects>
-                <viewController id="KIb-IO-Dvx" customClass="infoVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="KIb-IO-Dvx" customClass="InfoVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tDQ-mf-u6S">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -60,7 +60,7 @@
         <!--Race DetailsVC-->
         <scene sceneID="0lV-CS-7HA">
             <objects>
-                <viewController id="Z6g-bQ-aNQ" customClass="raceDetailsVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Z6g-bQ-aNQ" customClass="RaceDetailsVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="foJ-Q5-lE5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -75,7 +75,7 @@
         <!--Class DetailsVC-->
         <scene sceneID="bO9-DK-8up">
             <objects>
-                <viewController id="eJq-J2-iUN" customClass="classDetailsVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="eJq-J2-iUN" customClass="ClassDetailsVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5jA-Kj-Zdo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -90,7 +90,7 @@
         <!--RaceTVC-->
         <scene sceneID="IZm-m0-3OC">
             <objects>
-                <tableViewController id="Ygl-LO-imy" customClass="raceTVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Ygl-LO-imy" customClass="RaceTVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="LVY-Jm-9rj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -118,7 +118,7 @@
         <!--ClassTVC-->
         <scene sceneID="fpt-p5-FW9">
             <objects>
-                <tableViewController id="evh-Le-if2" customClass="classTVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="evh-Le-if2" customClass="ClassTVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="NDK-Ow-AcA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -146,7 +146,7 @@
         <!--SpellsTVC-->
         <scene sceneID="THv-3r-jKC">
             <objects>
-                <tableViewController id="7pS-OT-GGj" customClass="spellsTVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="7pS-OT-GGj" customClass="SpellsTVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="LJf-iG-MwH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -174,7 +174,7 @@
         <!--ItemsTVC-->
         <scene sceneID="7tT-UR-kyM">
             <objects>
-                <tableViewController id="gcW-o6-89B" customClass="itemsTVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="gcW-o6-89B" customClass="ItemsTVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="6JT-Zp-Y1p">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -202,7 +202,7 @@
         <!--FeatsTVC-->
         <scene sceneID="w5l-kN-pld">
             <objects>
-                <tableViewController id="5xU-T6-1TE" customClass="featsTVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="5xU-T6-1TE" customClass="FeatsTVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="dtZ-I9-hPa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -230,7 +230,7 @@
         <!--HomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="homeVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="homeVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -266,7 +266,7 @@
         <!--ViewVC-->
         <scene sceneID="Xsn-n0-cWg">
             <objects>
-                <viewController id="q2w-bB-wvp" customClass="viewVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="q2w-bB-wvp" customClass="ViewVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DUK-qX-wyH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -281,7 +281,7 @@
         <!--CharacterTVC-->
         <scene sceneID="bqC-iI-FQB">
             <objects>
-                <tableViewController id="KJi-6u-flZ" customClass="characterTVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="KJi-6u-flZ" customClass="CharacterTVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="5tk-2m-sFA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -303,7 +303,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="8Cy-cp-hZb">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="1nV-Kk-Tnt">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="FfU-E2-nXQ">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="FfU-E2-nXQ">
                                 <rect key="frame" x="302" y="5" width="92" height="34.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -322,7 +322,7 @@
         <!--CreateVC-->
         <scene sceneID="dld-cw-UOM">
             <objects>
-                <viewController id="dtO-D8-eSA" customClass="createVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dtO-D8-eSA" customClass="CreateVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DTQ-Vl-abh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -424,18 +424,33 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PKw-87-Nzv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1834.7826086956522" y="707.8125"/>
+            <point key="canvasLocation" x="1777" y="708"/>
+        </scene>
+        <!--ProficienciesVC-->
+        <scene sceneID="zI7-B9-3HT">
+            <objects>
+                <viewController id="6E8-1x-5kf" customClass="ProficienciesVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="H53-lt-h52">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Stx-yH-jNN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w9a-yt-tBG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1777" y="1436"/>
         </scene>
         <!--StatVC-->
         <scene sceneID="v8q-04-aWT">
             <objects>
-                <viewController id="fW0-F2-kco" customClass="statVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fW0-F2-kco" customClass="StatVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1jd-vF-3vP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j7j-Vm-2ZQ">
-                                <rect key="frame" x="177" y="827" width="61" height="35"/>
+                                <rect key="frame" x="176.5" y="827" width="61" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Save"/>
                             </button>
@@ -451,7 +466,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nvL-kP-SiE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2688" y="708"/>
+            <point key="canvasLocation" x="2580" y="708"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="f1T-Vm-Yzh">
@@ -469,7 +484,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ufn-k6-h30" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53.623188405797109" y="-34.151785714285715"/>
+            <point key="canvasLocation" x="135" y="-34"/>
         </scene>
     </scenes>
     <resources>
