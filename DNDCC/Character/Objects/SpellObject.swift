@@ -9,16 +9,14 @@ import Foundation
 
 class SpellObject {
     var level: Int
-    var verbal: Bool
-    var somatic: Bool
+    var components: [String]
     var material: String
     var range: String
     var description: String
     
-    init(level: Int, verbal: Bool, somatic: Bool, material: String, range: String, description: String) {
+    init(level: Int, components: [String], material: String, range: String, description: String) {
         self.level = level
-        self.verbal = verbal
-        self.somatic = somatic
+        self.components = components
         self.material = material
         self.range = range
         self.description = description

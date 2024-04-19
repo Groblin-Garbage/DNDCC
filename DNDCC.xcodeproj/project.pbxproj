@@ -16,7 +16,6 @@
 		36C5D9272BD1978400646F2D /* SubclassObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C5D9162BD1978400646F2D /* SubclassObject.swift */; };
 		36C5D9282BD1978400646F2D /* SpellObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C5D9172BD1978400646F2D /* SpellObject.swift */; };
 		36C5D9292BD1978400646F2D /* ClassObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C5D9182BD1978400646F2D /* ClassObject.swift */; };
-		36C5D92B2BD1978400646F2D /* languageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C5D91A2BD1978400646F2D /* languageObject.swift */; };
 		36C5D92C2BD1978400646F2D /* CharacterObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C5D91B2BD1978400646F2D /* CharacterObject.swift */; };
 		36C5D92D2BD1978400646F2D /* ProficiencyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C5D91C2BD1978400646F2D /* ProficiencyObject.swift */; };
 		36C5D92E2BD1978400646F2D /* ItemObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C5D91D2BD1978400646F2D /* ItemObject.swift */; };
@@ -55,7 +54,6 @@
 		36C5D9162BD1978400646F2D /* SubclassObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubclassObject.swift; sourceTree = "<group>"; };
 		36C5D9172BD1978400646F2D /* SpellObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpellObject.swift; sourceTree = "<group>"; };
 		36C5D9182BD1978400646F2D /* ClassObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassObject.swift; sourceTree = "<group>"; };
-		36C5D91A2BD1978400646F2D /* languageObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = languageObject.swift; sourceTree = "<group>"; };
 		36C5D91B2BD1978400646F2D /* CharacterObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterObject.swift; sourceTree = "<group>"; };
 		36C5D91C2BD1978400646F2D /* ProficiencyObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProficiencyObject.swift; sourceTree = "<group>"; };
 		36C5D91D2BD1978400646F2D /* ItemObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemObject.swift; sourceTree = "<group>"; };
@@ -160,7 +158,6 @@
 				36C5D9162BD1978400646F2D /* SubclassObject.swift */,
 				36C5D9172BD1978400646F2D /* SpellObject.swift */,
 				36C5D9182BD1978400646F2D /* ClassObject.swift */,
-				36C5D91A2BD1978400646F2D /* languageObject.swift */,
 				36C5D91B2BD1978400646F2D /* CharacterObject.swift */,
 				36C5D91C2BD1978400646F2D /* ProficiencyObject.swift */,
 				36C5D91D2BD1978400646F2D /* ItemObject.swift */,
@@ -262,7 +259,6 @@
 				36C8903C2BC03E96007D5EEB /* CharacterTVC.swift in Sources */,
 				36C890422BC03F0E007D5EEB /* ProficienciesVC.swift in Sources */,
 				36F3707B2BACA74D002DCC99 /* homeVC.swift in Sources */,
-				36C5D92B2BD1978400646F2D /* languageObject.swift in Sources */,
 				3660B79B2BAB5A3700766221 /* DNDCC.xcdatamodeld in Sources */,
 				36C5D9332BD1978400646F2D /* MagicItemObject.swift in Sources */,
 				36C5D9352BD1978400646F2D /* SubraceObject.swift in Sources */,

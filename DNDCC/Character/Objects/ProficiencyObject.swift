@@ -10,7 +10,6 @@ import Foundation
 class ProficiencyObject {
     
     
-    //this one below seems like a better way of doing it I think im gonna change it later after I check with G.K.
     var name: String
     var proficiency: Bool
     var expertise: Bool
