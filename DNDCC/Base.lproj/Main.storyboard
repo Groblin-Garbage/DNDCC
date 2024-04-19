@@ -17,39 +17,58 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVV-23-yCt">
-                                <rect key="frame" x="170" y="431" width="75" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YeE-qp-pv6">
-                                <rect key="frame" x="165" y="371" width="85" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="classVC"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8jD-vs-aNz">
-                                <rect key="frame" x="170" y="495" width="75" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJ7-xA-dd8">
-                                <rect key="frame" x="168" y="303" width="79" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="raceVC"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aag-MK-SxI">
-                                <rect key="frame" x="170" y="573" width="75" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="h23-CE-DLp">
+                                <rect key="frame" x="156.5" y="335" width="101.5" height="284.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVV-23-yCt">
+                                        <rect key="frame" x="0.0" y="0.0" width="101.5" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="SpellsTVC"/>
+                                        <connections>
+                                            <segue destination="7pS-OT-GGj" kind="show" id="9OT-wt-PlH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YeE-qp-pv6">
+                                        <rect key="frame" x="0.0" y="62.5" width="101.5" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="ClassTVC"/>
+                                        <connections>
+                                            <segue destination="evh-Le-if2" kind="show" id="g7Y-z9-Pe9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8jD-vs-aNz">
+                                        <rect key="frame" x="0.0" y="125" width="101.5" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="ItemsTVC"/>
+                                        <connections>
+                                            <segue destination="gcW-o6-89B" kind="show" id="nfm-Zf-Lms"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJ7-xA-dd8">
+                                        <rect key="frame" x="0.0" y="187.5" width="101.5" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="RaceTVC"/>
+                                        <connections>
+                                            <segue destination="Ygl-LO-imy" kind="show" id="jhu-Nb-lND"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aag-MK-SxI">
+                                        <rect key="frame" x="0.0" y="250" width="101.5" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="FeatsTVC"/>
+                                        <connections>
+                                            <segue destination="5xU-T6-1TE" kind="show" id="wc5-8y-NDi"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jVr-Xl-oCQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="h23-CE-DLp" firstAttribute="centerX" secondItem="jVr-Xl-oCQ" secondAttribute="centerX" id="Cqg-CV-qbS"/>
+                            <constraint firstItem="h23-CE-DLp" firstAttribute="centerY" secondItem="jVr-Xl-oCQ" secondAttribute="centerY" id="WLp-e1-fqS"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="EZ1-eY-oLu"/>
                 </viewController>
@@ -110,6 +129,7 @@
                             <outlet property="delegate" destination="Ygl-LO-imy" id="paL-MJ-V07"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="ADg-33-Qrb"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vFb-5R-WOA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -138,6 +158,7 @@
                             <outlet property="delegate" destination="evh-Le-if2" id="eFt-GA-Lre"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="Bx3-Y0-5Jv"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ijh-LQ-7bq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -166,6 +187,7 @@
                             <outlet property="delegate" destination="7pS-OT-GGj" id="b48-lg-lKx"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="vj3-YG-EOV"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GzQ-jm-CCb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -194,6 +216,7 @@
                             <outlet property="delegate" destination="gcW-o6-89B" id="sdk-hs-MaW"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="13r-nb-oD4"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j6N-6v-xtJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -222,6 +245,7 @@
                             <outlet property="delegate" destination="5xU-T6-1TE" id="pPE-IM-R6n"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="1Tx-Gn-OHP"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Zw-FV-SJc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -406,6 +430,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Proficiencies"/>
+                                <connections>
+                                    <segue destination="6E8-1x-5kf" kind="show" id="QmC-nx-VLS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e8y-fY-BKn">
                                 <rect key="frame" x="175" y="430" width="64" height="35"/>
@@ -436,6 +463,7 @@
                         <viewLayoutGuide key="safeArea" id="Stx-yH-jNN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="oEw-Ns-XMO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w9a-yt-tBG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
