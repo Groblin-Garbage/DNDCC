@@ -9,6 +9,8 @@ import UIKit
 
 class InfoVC: UIViewController {
 
+    var spells = [SpellObject]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
