@@ -241,7 +241,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="infoVC"/>
                                 <connections>
-                                    <segue destination="KIb-IO-Dvx" kind="show" id="nIE-C3-iAk"/>
+                                    <segue destination="KIb-IO-Dvx" kind="show" identifier="sendAllSegue" id="nIE-C3-iAk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPg-O1-nsb">
