@@ -477,222 +477,281 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="t2d-W5-klp">
-                                <rect key="frame" x="132" y="290" width="150" height="374.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="t2d-W5-klp">
+                                <rect key="frame" x="118" y="251" width="178" height="452.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="nBY-XL-D5r">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="85"/>
+                                        <rect key="frame" x="51.5" y="0.0" width="75" height="64.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DqB-DP-VjH">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dV5-GO-G4g">
-                                                <rect key="frame" x="0.0" y="20.5" width="150" height="34.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="34.5"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Roll All"/>
+                                                <connections>
+                                                    <action selector="rollAll:" destination="fW0-F2-kco" eventType="touchUpInside" id="Vew-mr-Vuv"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y80-Ml-IQA">
-                                                <rect key="frame" x="0.0" y="55" width="150" height="30"/>
+                                            <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y80-Ml-IQA">
+                                                <rect key="frame" x="0.0" y="34.5" width="75" height="30"/>
                                                 <menu key="menu" id="nCL-9c-QH0">
                                                     <children>
                                                         <command title="Item 1" id="116-MH-dt8"/>
                                                         <command title="Item 2" id="5cD-gs-jux"/>
                                                     </children>
                                                 </menu>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="-Select-">
+                                                            <attributes>
+                                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B61-5k-C6W">
-                                        <rect key="frame" x="0.0" y="85" width="150" height="85"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="64" translatesAutoresizingMaskIntoConstraints="NO" id="B61-5k-C6W">
+                                        <rect key="frame" x="0.0" y="104.5" width="178" height="64.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="lz1-3d-LQJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="85"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="X0l-ux-hLl">
+                                                <rect key="frame" x="0.0" y="0.0" width="57" height="64.5"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tle-aD-ipc">
-                                                        <rect key="frame" x="0.0" y="0.0" width="75" height="20.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHh-Fl-AN7">
-                                                        <rect key="frame" x="0.0" y="20.5" width="75" height="34.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L4i-yZ-GsW">
+                                                        <rect key="frame" x="0.0" y="0.0" width="57" height="34.5"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Roll"/>
+                                                        <connections>
+                                                            <action selector="button1:" destination="fW0-F2-kco" eventType="touchUpInside" id="E4i-JT-DN4"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uxi-bD-xjI">
-                                                        <rect key="frame" x="0.0" y="55" width="75" height="30"/>
-                                                        <menu key="menu" id="2c6-QX-yy3">
+                                                    <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pSh-00-PiI">
+                                                        <rect key="frame" x="0.0" y="34.5" width="57" height="30"/>
+                                                        <menu key="menu" id="2ig-GI-fz0">
                                                             <children>
-                                                                <command title="Item 1" id="TdN-4a-tYK"/>
-                                                                <command title="Item 2" id="4lj-AC-3Dv"/>
+                                                                <command title="Item 1" id="6NK-yg-xm7"/>
+                                                                <command title="Item 2" id="3Dc-mM-8m3"/>
                                                             </children>
                                                         </menu>
-                                                        <state key="normal" title="Button"/>
+                                                        <state key="normal">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="-Select-">
+                                                                    <attributes>
+                                                                        <font key="NSFont" metaFont="system" size="15"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
                                                     </button>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6f2-PQ-3Sc">
-                                                <rect key="frame" x="75" y="0.0" width="75" height="85"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dHy-no-dfw">
+                                                <rect key="frame" x="121" y="0.0" width="57" height="64.5"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gxh-Gy-gfq">
-                                                        <rect key="frame" x="0.0" y="0.0" width="75" height="20.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ShQ-gh-DZK">
-                                                        <rect key="frame" x="0.0" y="20.5" width="75" height="34.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tir-0X-XwM">
+                                                        <rect key="frame" x="0.0" y="0.0" width="57" height="34.5"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Roll"/>
+                                                        <connections>
+                                                            <action selector="button2:" destination="fW0-F2-kco" eventType="touchUpInside" id="djy-Hz-BB2"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TlD-aY-Ixl">
-                                                        <rect key="frame" x="0.0" y="55" width="75" height="30"/>
-                                                        <menu key="menu" id="F9C-aP-QGe">
+                                                    <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aQo-bn-wv6">
+                                                        <rect key="frame" x="0.0" y="34.5" width="57" height="30"/>
+                                                        <menu key="menu" id="ibT-qz-eBC">
                                                             <children>
-                                                                <command title="Item 1" id="AGr-Qh-Hrt"/>
-                                                                <command title="Item 2" id="rXv-WN-gSs"/>
+                                                                <command title="Item 1" id="qOo-4T-KVg"/>
+                                                                <command title="Item 2" id="M4G-xK-qQN"/>
                                                             </children>
                                                         </menu>
-                                                        <state key="normal" title="Button"/>
+                                                        <state key="normal">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="-Select-">
+                                                                    <attributes>
+                                                                        <font key="NSFont" metaFont="system" size="15"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
                                                     </button>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PPm-A7-5LC">
-                                        <rect key="frame" x="0.0" y="170" width="150" height="85"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="64" translatesAutoresizingMaskIntoConstraints="NO" id="Cgf-h3-JZh">
+                                        <rect key="frame" x="0.0" y="209" width="178" height="64.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="uNS-f2-hMd">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="85"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2Hh-3P-XoE">
+                                                <rect key="frame" x="0.0" y="0.0" width="57" height="64.5"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qxR-zf-ThW">
-                                                        <rect key="frame" x="0.0" y="0.0" width="75" height="20.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMN-Bl-C1B">
-                                                        <rect key="frame" x="0.0" y="20.5" width="75" height="34.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1p5-6X-vMt">
+                                                        <rect key="frame" x="0.0" y="0.0" width="57" height="34.5"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Roll"/>
+                                                        <connections>
+                                                            <action selector="button3:" destination="fW0-F2-kco" eventType="touchUpInside" id="9hH-m6-1WS"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m3d-9y-SAD">
-                                                        <rect key="frame" x="0.0" y="55" width="75" height="30"/>
-                                                        <menu key="menu" id="FYA-mC-dch">
+                                                    <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xvg-Qi-KUg">
+                                                        <rect key="frame" x="0.0" y="34.5" width="57" height="30"/>
+                                                        <menu key="menu" id="3iz-tm-17K">
                                                             <children>
-                                                                <command title="Item 1" id="mEH-gi-fHg"/>
-                                                                <command title="Item 2" id="2Z9-57-aUg"/>
+                                                                <command title="Item 1" id="a7g-s8-f7e"/>
+                                                                <command title="Item 2" id="QHT-n8-SZo"/>
                                                             </children>
                                                         </menu>
-                                                        <state key="normal" title="Button"/>
+                                                        <state key="normal">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="-Select-">
+                                                                    <attributes>
+                                                                        <font key="NSFont" metaFont="system" size="15"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
                                                     </button>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Cbh-jr-EOm">
-                                                <rect key="frame" x="75" y="0.0" width="75" height="85"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gr2-AH-Jld">
+                                                <rect key="frame" x="121" y="0.0" width="57" height="64.5"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4yc-cK-Zre">
-                                                        <rect key="frame" x="0.0" y="0.0" width="75" height="20.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0g-ou-BP9">
-                                                        <rect key="frame" x="0.0" y="20.5" width="75" height="34.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yj6-b9-LDR">
+                                                        <rect key="frame" x="0.0" y="0.0" width="57" height="34.5"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Roll"/>
+                                                        <connections>
+                                                            <action selector="button4:" destination="fW0-F2-kco" eventType="touchUpInside" id="bgM-rE-fsD"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UUV-3x-mER">
-                                                        <rect key="frame" x="0.0" y="55" width="75" height="30"/>
-                                                        <menu key="menu" id="hPx-gp-ykA">
+                                                    <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hau-H2-6BG">
+                                                        <rect key="frame" x="0.0" y="34.5" width="57" height="30"/>
+                                                        <menu key="menu" id="dcF-22-yxM">
                                                             <children>
-                                                                <command title="Item 1" id="WKr-HH-IgV"/>
-                                                                <command title="Item 2" id="JqB-wl-lfX"/>
+                                                                <command title="Item 1" id="Bpe-nQ-6F7"/>
+                                                                <command title="Item 2" id="lmP-31-d76"/>
                                                             </children>
                                                         </menu>
-                                                        <state key="normal" title="Button"/>
+                                                        <state key="normal">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="-Select-">
+                                                                    <attributes>
+                                                                        <font key="NSFont" metaFont="system" size="15"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
                                                     </button>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dmD-cR-0r3">
-                                        <rect key="frame" x="0.0" y="255" width="150" height="85"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="64" translatesAutoresizingMaskIntoConstraints="NO" id="vva-KO-gRG">
+                                        <rect key="frame" x="0.0" y="313.5" width="178" height="64.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="phF-wS-Bzi">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="85"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wGD-8i-3VK">
+                                                <rect key="frame" x="0.0" y="0.0" width="57" height="64.5"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="If9-KK-f1K">
-                                                        <rect key="frame" x="0.0" y="0.0" width="75" height="20.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3dy-EO-uzq">
-                                                        <rect key="frame" x="0.0" y="20.5" width="75" height="34.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0T-c7-n7b">
+                                                        <rect key="frame" x="0.0" y="0.0" width="57" height="34.5"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Roll"/>
+                                                        <connections>
+                                                            <action selector="button5:" destination="fW0-F2-kco" eventType="touchUpInside" id="soY-VE-wCk"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9QT-Et-VNZ">
-                                                        <rect key="frame" x="0.0" y="55" width="75" height="30"/>
-                                                        <menu key="menu" id="R0O-Pt-qHA">
+                                                    <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bry-4d-lFA">
+                                                        <rect key="frame" x="0.0" y="34.5" width="57" height="30"/>
+                                                        <menu key="menu" id="ZV5-dj-o1s">
                                                             <children>
-                                                                <command title="Item 1" id="ODp-Bj-mrs"/>
-                                                                <command title="Item 2" id="iAu-rP-iCP"/>
+                                                                <command title="Item 1" id="vv8-VU-BT3"/>
+                                                                <command title="Item 2" id="atG-iI-UPi"/>
                                                             </children>
                                                         </menu>
-                                                        <state key="normal" title="Button"/>
+                                                        <state key="normal">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="-Select-">
+                                                                    <attributes>
+                                                                        <font key="NSFont" metaFont="system" size="15"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
                                                     </button>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Emg-2D-OqI">
-                                                <rect key="frame" x="75" y="0.0" width="75" height="85"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="QAO-aY-gSL">
+                                                <rect key="frame" x="121" y="0.0" width="57" height="64.5"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fNR-nl-oTt">
-                                                        <rect key="frame" x="0.0" y="0.0" width="75" height="20.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uz0-f4-ORR">
-                                                        <rect key="frame" x="0.0" y="20.5" width="75" height="34.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izJ-VB-eGb">
+                                                        <rect key="frame" x="0.0" y="0.0" width="57" height="34.5"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Roll"/>
+                                                        <connections>
+                                                            <action selector="button6:" destination="fW0-F2-kco" eventType="touchUpInside" id="Tq3-z4-pcb"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XGQ-PG-knH">
-                                                        <rect key="frame" x="0.0" y="55" width="75" height="30"/>
-                                                        <menu key="menu" id="d10-GE-WbE">
+                                                    <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZyX-g2-hrW">
+                                                        <rect key="frame" x="0.0" y="34.5" width="57" height="30"/>
+                                                        <menu key="menu" id="AIl-Tv-7KD">
                                                             <children>
-                                                                <command title="Item 1" id="wbq-MA-w5k"/>
-                                                                <command title="Item 2" id="YCb-Fx-5bU"/>
+                                                                <command title="Item 1" id="Hkh-Ls-EKG"/>
+                                                                <command title="Item 2" id="XMM-mR-Oka"/>
                                                             </children>
                                                         </menu>
-                                                        <state key="normal" title="Button"/>
+                                                        <state key="normal">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="-Select-">
+                                                                    <attributes>
+                                                                        <font key="NSFont" metaFont="system" size="15"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
                                                     </button>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j7j-Vm-2ZQ">
-                                        <rect key="frame" x="0.0" y="340" width="150" height="34.5"/>
+                                        <rect key="frame" x="58.5" y="418" width="61" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Save"/>
                                     </button>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stat Roller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gtI-cI-1AR">
+                                <rect key="frame" x="103" y="92" width="208" height="57.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bvs-Ff-5nl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="gtI-cI-1AR" firstAttribute="centerX" secondItem="bvs-Ff-5nl" secondAttribute="centerX" id="DCj-GJ-fLi"/>
+                            <constraint firstItem="gtI-cI-1AR" firstAttribute="top" secondItem="bvs-Ff-5nl" secondAttribute="top" id="dyt-8P-UJE"/>
                             <constraint firstItem="t2d-W5-klp" firstAttribute="centerY" secondItem="bvs-Ff-5nl" secondAttribute="centerY" id="gnh-6O-Uib"/>
                             <constraint firstItem="t2d-W5-klp" firstAttribute="centerX" secondItem="bvs-Ff-5nl" secondAttribute="centerX" id="vmC-WB-f4q"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="AB0-8z-9ef"/>
+                    <connections>
+                        <outlet property="rollAllButton" destination="dV5-GO-G4g" id="2Sz-yG-q3O"/>
+                        <outlet property="rollButton1" destination="L4i-yZ-GsW" id="Rg4-GO-qGd"/>
+                        <outlet property="rollButton2" destination="tir-0X-XwM" id="igU-c6-tMI"/>
+                        <outlet property="rollButton3" destination="1p5-6X-vMt" id="WHV-og-4fT"/>
+                        <outlet property="rollButton4" destination="yj6-b9-LDR" id="EHO-IW-JNg"/>
+                        <outlet property="rollButton5" destination="f0T-c7-n7b" id="PLq-uq-u3S"/>
+                        <outlet property="rollButton6" destination="izJ-VB-eGb" id="nQQ-Ns-wQr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nvL-kP-SiE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

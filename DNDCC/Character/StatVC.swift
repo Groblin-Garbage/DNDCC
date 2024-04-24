@@ -8,6 +8,15 @@
 import UIKit
 
 class StatVC: UIViewController {
+    
+    @IBOutlet weak var rollAllButton: UIButton!
+    @IBOutlet weak var rollButton1: UIButton!
+    @IBOutlet weak var rollButton2: UIButton!
+    @IBOutlet weak var rollButton3: UIButton!
+    @IBOutlet weak var rollButton4: UIButton!
+    @IBOutlet weak var rollButton5: UIButton!
+    @IBOutlet weak var rollButton6: UIButton!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,5 +34,29 @@ class StatVC: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func button1(_ sender: UIButton) {
+        
+    }
+    @IBAction func button2(_ sender: UIButton) {
+        
+    }
+    @IBAction func button3(_ sender: UIButton) {
+        
+    }
+    @IBAction func button4(_ sender: UIButton) {
+        
+    }
+    @IBAction func button5(_ sender: UIButton) {
+        
+    }
+    @IBAction func button6(_ sender: UIButton) {
+        
+    }
+    @IBAction func rollAll(_ sender: UIButton) {
+        
+    }
+    
+    func roll() {
+        
+    }
 }
