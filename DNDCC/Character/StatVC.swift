@@ -35,7 +35,7 @@ class StatVC: UIViewController {
     }
     */
     @IBAction func button1(_ sender: UIButton) {
-        
+        rollButton1.setImage("\(roll())D20", for: self)
     }
     @IBAction func button2(_ sender: UIButton) {
         
@@ -56,7 +56,17 @@ class StatVC: UIViewController {
         
     }
     
-    func roll() {
-        
+    func roll() -> Int {
+        var rolls = 4
+        var totalRoll = 0
+        for _ in 1...rolls {
+            var roll = Int.random(in: 1...6)
+            if (roll == 1) {
+                rolls += 1
+            } else {
+                totalRoll += roll
+            }
+        }
+        return totalRoll
     }
 }
