@@ -18,6 +18,7 @@ class InfoVC: UIViewController {
 
         print(test[0])
         print(spells[0])
+        print(spells[0].name)
         
         //print(classes[1].name)
         // Do any additional setup after loading the view.
