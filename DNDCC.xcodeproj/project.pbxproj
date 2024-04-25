@@ -46,7 +46,6 @@
 		425CAE182BD984F800EC06FB /* ProficiencyObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProficiencyObject.swift; sourceTree = "<group>"; };
 		425CAE192BD984F800EC06FB /* ItemObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemObject.swift; sourceTree = "<group>"; };
 		425CAE1A2BD984F800EC06FB /* BackgroundObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundObject.swift; sourceTree = "<group>"; };
-		425CAE1B2BD984F800EC06FB /* class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = class.swift; sourceTree = "<group>"; };
 		425CAE1D2BD984F800EC06FB /* WeaponObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponObject.swift; sourceTree = "<group>"; };
 		425CAE1E2BD984F800EC06FB /* MiscObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscObject.swift; sourceTree = "<group>"; };
 		425CAE1F2BD984F800EC06FB /* MagicItemObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicItemObject.swift; sourceTree = "<group>"; };
@@ -123,7 +122,6 @@
 				425CAE182BD984F800EC06FB /* ProficiencyObject.swift */,
 				425CAE192BD984F800EC06FB /* ItemObject.swift */,
 				425CAE1A2BD984F800EC06FB /* BackgroundObject.swift */,
-				425CAE1B2BD984F800EC06FB /* class.swift */,
 				425CAE1C2BD984F800EC06FB /* itemTypes */,
 				425CAE212BD984F800EC06FB /* SubraceObject.swift */,
 				425CAE222BD984F800EC06FB /* RaceObject.swift */,
