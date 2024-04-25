@@ -126,8 +126,7 @@
 				425CAE212BD984F800EC06FB /* SubraceObject.swift */,
 				425CAE222BD984F800EC06FB /* RaceObject.swift */,
 			);
-			name = Objects;
-			path = "../../../Mac (2)/Desktop/Objects";
+			path = Objects;
 			sourceTree = "<group>";
 		};
 		425CAE1C2BD984F800EC06FB /* itemTypes */ = {
