@@ -10,8 +10,11 @@ import UIKit
 class StatVC: UIViewController {
     
     //str,dex,con,int,wis,cha
-    var stats: [Int] = [6,6,6,6,6,6]
+    var stats: [String] = ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"]
+    var statsNum: [Int] = [6,6,6,6,6,6]
     var statsUsed: [Bool] = [false, false, false, false, false, false]
+    
+    var rolledStats: [Int] = []
     
     @IBOutlet weak var rollAllButton: UIButton!
     @IBOutlet weak var rollButton1: UIButton!
@@ -21,32 +24,78 @@ class StatVC: UIViewController {
     @IBOutlet weak var rollButton5: UIButton!
     @IBOutlet weak var rollButton6: UIButton!
     
-    @IBOutlet weak var stat1: UIButton!
-    @IBOutlet weak var stat2: UIButton!
-    @IBOutlet weak var stat3: UIButton!
-    @IBOutlet weak var stat4: UIButton!
-    @IBOutlet weak var stat5: UIButton!
-    @IBOutlet weak var stat6: UIButton!
+    @IBOutlet weak var statButton1: UIButton!
+    @IBOutlet weak var statButton2: UIButton!
+    @IBOutlet weak var statButton3: UIButton!
+    @IBOutlet weak var statButton4: UIButton!
+    @IBOutlet weak var statButton5: UIButton!
+    @IBOutlet weak var statButton6: UIButton!
     
-    @IBAction func stat1Button(_ sender: UIButton) {
-        print("test")
-        setStat(stat1)
+    @IBOutlet weak var reset: UIButton!
+    
+    @IBAction func roll1(_ sender: UIButton) {
+        rollButton1.setImage(UIImage(named: "\(roll())D20"), for: .normal)
     }
-    @IBAction func stat2Button(_ sender: UIButton) {
-        print("test")
+    @IBAction func roll2(_ sender: UIButton) {
+        rollButton2.setImage(UIImage(named: "\(roll())D20"), for: .normal)
     }
-    @IBAction func stat3Button(_ sender: UIButton) {
-        print("test")
+    @IBAction func roll3(_ sender: UIButton) {
+        rollButton3.setImage(UIImage(named: "\(roll())D20"), for: .normal)
     }
-    @IBAction func stat4Button(_ sender: UIButton) {
-        print("test")
+    @IBAction func roll4(_ sender: UIButton) {
+        rollButton4.setImage(UIImage(named: "\(roll())D20"), for: .normal)
     }
-    @IBAction func stat5Button(_ sender: UIButton) {
-        print("test")
+    @IBAction func roll5(_ sender: UIButton) {
+        rollButton5.setImage(UIImage(named: "\(roll())D20"), for: .normal)
     }
-    @IBAction func stat6Button(_ sender: UIButton) {
-        print("test")
+    @IBAction func roll6(_ sender: UIButton) {
+        rollButton6.setImage(UIImage(named: "\(roll())D20"), for: .normal)
     }
+    @IBAction func rollAll(_ sender: UIButton) {
+        rollButton1.setImage(UIImage(named: "\(roll())D20"), for: .normal)
+        rollButton2.setImage(UIImage(named: "\(roll())D20"), for: .normal)
+        rollButton3.setImage(UIImage(named: "\(roll())D20"), for: .normal)
+        rollButton4.setImage(UIImage(named: "\(roll())D20"), for: .normal)
+        rollButton5.setImage(UIImage(named: "\(roll())D20"), for: .normal)
+        rollButton6.setImage(UIImage(named: "\(roll())D20"), for: .normal)
+    }
+    
+    @IBAction func stat1(_ sender: UIButton) {
+        print("test")
+        getStat(statButton: statButton1)
+    }
+    @IBAction func stat2(_ sender: UIButton) {
+        print("test")
+        getStat(statButton: statButton2)
+    }
+    @IBAction func stat3(_ sender: UIButton) {
+        print("test")
+        getStat(statButton: statButton3)
+    }
+    @IBAction func stat4(_ sender: UIButton) {
+        print("test")
+        getStat(statButton: statButton4)
+    }
+    @IBAction func stat5(_ sender: UIButton) {
+        print("test")
+        getStat(statButton: statButton5)
+    }
+    @IBAction func stat6(_ sender: UIButton) {
+        print("test")
+        getStat(statButton: statButton6)
+    }
+    
+    @IBAction func reset(_ sender: UIButton) {
+        statsNum = [6,6,6,6,6,6]
+        statsUsed = [false, false, false, false, false, false]
+        statButton1.setTitle("-Select-", for: .normal)
+        statButton2.setTitle("-Select-", for: .normal)
+        statButton3.setTitle("-Select-", for: .normal)
+        statButton4.setTitle("-Select-", for: .normal)
+        statButton5.setTitle("-Select-", for: .normal)
+        statButton6.setTitle("-Select-", for: .normal)
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -64,32 +113,7 @@ class StatVC: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    @IBAction func button1(_ sender: UIButton) {
-        rollButton1.setImage(UIImage(named: "\(roll())D20"), for: .normal)
-    }
-    @IBAction func button2(_ sender: UIButton) {
-        rollButton2.setImage(UIImage(named: "\(roll())D20"), for: .normal)
-    }
-    @IBAction func button3(_ sender: UIButton) {
-        rollButton3.setImage(UIImage(named: "\(roll())D20"), for: .normal)
-    }
-    @IBAction func button4(_ sender: UIButton) {
-        rollButton4.setImage(UIImage(named: "\(roll())D20"), for: .normal)
-    }
-    @IBAction func button5(_ sender: UIButton) {
-        rollButton5.setImage(UIImage(named: "\(roll())D20"), for: .normal)
-    }
-    @IBAction func button6(_ sender: UIButton) {
-        rollButton6.setImage(UIImage(named: "\(roll())D20"), for: .normal)
-    }
-    @IBAction func rollAll(_ sender: UIButton) {
-        rollButton1.setImage(UIImage(named: "\(roll())D20"), for: .normal)
-        rollButton2.setImage(UIImage(named: "\(roll())D20"), for: .normal)
-        rollButton3.setImage(UIImage(named: "\(roll())D20"), for: .normal)
-        rollButton4.setImage(UIImage(named: "\(roll())D20"), for: .normal)
-        rollButton5.setImage(UIImage(named: "\(roll())D20"), for: .normal)
-        rollButton6.setImage(UIImage(named: "\(roll())D20"), for: .normal)
-    }
+
     
     func roll() -> Int {
         var diceRolled = false
@@ -98,7 +122,7 @@ class StatVC: UIViewController {
         var nums: [Int] = []
         var goodNums: [Int] = []
         while (!diceRolled) {
-            var roll = Int.random(in: 1...6)
+            let roll = Int.random(in: 1...6)
             if (roll != 1) {
                 nums.append(roll)
                 rolls += 1
@@ -112,51 +136,38 @@ class StatVC: UIViewController {
         goodNums.append(contentsOf: nums.dropFirst(1))
         print(goodNums)
         totalRoll = goodNums[0] + goodNums[1] + goodNums[2]
+        rolledStats.append(totalRoll)
         return totalRoll
     }
     
-    func setStat(statButton: UIButton) {
-        
+    func setStat(statButton: UIButton, stat: String) {
+        var statButtons: [UIButton] = [statButton1, statButton2, statButton3, statButton4, statButton5, statButton6]
+        if (statsUsed[stats.firstIndex(of: "\(stat)")!]) {
+            for button in statButtons {
+                if (button.title(for: .normal) == stat) {
+                    button.setTitle("-Select-", for: .normal)
+                }
+            }
+            statButton.setTitle(stat, for: .normal)
+            var oldStat
+            statsNum.replace(<#T##other: Collection##Collection#>, with: <#T##Collection#>)
+        } else {
+            statButton.setTitle(stat, for: .normal)
+        }
     }
     
-    @objc func getAnswer() {
-        let ac = UIAlertController(title: "Pick which stat to assign the value rolled to", message: nil, preferredStyle: .alert)
-        let str = UIAlertAction(title: "Strength", style: .default) {
-            [unowned self, ac] (action: UIAlertAction) in
-            let answer = "Strength"
-            statsUsed[0] = !statsUsed[0]
+    @objc func getStat(statButton: UIButton) {
+        let ac = UIAlertController(title: "Pick which stat to assign the value rolled to.", message: nil, preferredStyle: .alert)
+        for word in stats {
+            let stat = UIAlertAction(title: word, style: .default) {
+                [unowned self] (action: UIAlertAction) in
+                let answer = word
+                print(answer)
+                statsUsed[stats.firstIndex(of: "\(word)")!] = true
+                setStat(statButton: statButton, stat: word)
+            }
+            ac.addAction(stat)
         }
-        ac.addAction(str)
-        let dex = UIAlertAction(title: "Dexterity", style: .default) {
-            [unowned self, ac] (action: UIAlertAction) in
-            let answer = "Dexterity"
-            statsUsed[1] = !statsUsed[1]
-        }
-        ac.addAction(dex)
-        let con = UIAlertAction(title: "Constitution", style: .default) {
-            [unowned self, ac] (action: UIAlertAction) in
-            let answer = "Constitution"
-            statsUsed[2] = !statsUsed[2]
-        }
-        ac.addAction(con)
-        let int = UIAlertAction(title: "Intelligence", style: .default) {
-            [unowned self, ac] (action: UIAlertAction) in
-            let answer = "Intelligence"
-            statsUsed[3] = !statsUsed[3]
-        }
-        ac.addAction(int)
-        let wis = UIAlertAction(title: "Wisdom", style: .default) {
-            [unowned self, ac] (action: UIAlertAction) in
-            let answer = "Wisdom"
-            statsUsed[4] = !statsUsed[4]
-        }
-        ac.addAction(wis)
-        let cha = UIAlertAction(title: "Charisma", style: .default) {
-            [unowned self, ac] (action: UIAlertAction) in
-            let answer = "Charisma"
-            statsUsed[5] = !statsUsed[5]
-        }
-        ac.addAction(cha)
         present(ac, animated: true)
     }
 }

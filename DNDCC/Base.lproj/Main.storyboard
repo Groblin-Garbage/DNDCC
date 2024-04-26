@@ -491,15 +491,15 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="RollD20" buttonSize="mini"/>
                                                         <connections>
-                                                            <action selector="button1:" destination="fW0-F2-kco" eventType="touchUpInside" id="gfR-w0-bsm"/>
+                                                            <action selector="roll1:" destination="fW0-F2-kco" eventType="touchUpInside" id="FjO-RT-mIZ"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NrH-6t-fjw">
+                                                    <button opaque="NO" tag="1" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NrH-6t-fjw">
                                                         <rect key="frame" x="0.0" y="149" width="159" height="34.5"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="-Select-"/>
                                                         <connections>
-                                                            <action selector="stat1Button:" destination="fW0-F2-kco" eventType="touchUpInside" id="73R-2a-qzS"/>
+                                                            <action selector="stat1:" destination="fW0-F2-kco" eventType="touchUpInside" id="dMB-sb-aF5"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -512,15 +512,15 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="RollD20"/>
                                                         <connections>
-                                                            <action selector="button2:" destination="fW0-F2-kco" eventType="touchUpInside" id="TAT-wt-V4j"/>
+                                                            <action selector="roll2:" destination="fW0-F2-kco" eventType="touchUpInside" id="VY6-CF-g8r"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pHY-lu-piz">
+                                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pHY-lu-piz">
                                                         <rect key="frame" x="0.0" y="149" width="159" height="34.5"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="-Select-"/>
                                                         <connections>
-                                                            <action selector="stat2Button:" destination="fW0-F2-kco" eventType="touchUpInside" id="LgO-u3-aUD"/>
+                                                            <action selector="stat2:" destination="fW0-F2-kco" eventType="touchUpInside" id="wL1-LD-eIC"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -538,15 +538,15 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="RollD20"/>
                                                         <connections>
-                                                            <action selector="button3:" destination="fW0-F2-kco" eventType="touchUpInside" id="Poa-bH-BvU"/>
+                                                            <action selector="roll3:" destination="fW0-F2-kco" eventType="touchUpInside" id="5Iz-ok-F9s"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cnT-H6-FgK">
+                                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cnT-H6-FgK">
                                                         <rect key="frame" x="0.0" y="149" width="159" height="34.5"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="-Select-"/>
                                                         <connections>
-                                                            <action selector="stat3Button:" destination="fW0-F2-kco" eventType="touchUpInside" id="ePL-cj-bDn"/>
+                                                            <action selector="stat3:" destination="fW0-F2-kco" eventType="touchUpInside" id="OBm-5Q-NGA"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -559,15 +559,15 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="RollD20"/>
                                                         <connections>
-                                                            <action selector="button4:" destination="fW0-F2-kco" eventType="touchUpInside" id="JG1-Za-vuD"/>
+                                                            <action selector="roll4:" destination="fW0-F2-kco" eventType="touchUpInside" id="vfS-OF-bYw"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="by5-i5-L8G">
+                                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="by5-i5-L8G">
                                                         <rect key="frame" x="0.0" y="149" width="159" height="34.5"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="-Select-"/>
                                                         <connections>
-                                                            <action selector="stat4Button:" destination="fW0-F2-kco" eventType="touchUpInside" id="dix-y3-Vrp"/>
+                                                            <action selector="stat4:" destination="fW0-F2-kco" eventType="touchUpInside" id="vtx-Kz-Lk0"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -585,15 +585,15 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="RollD20"/>
                                                         <connections>
-                                                            <action selector="button5:" destination="fW0-F2-kco" eventType="touchUpInside" id="rei-MX-7gh"/>
+                                                            <action selector="roll5:" destination="fW0-F2-kco" eventType="touchUpInside" id="njV-7R-pVg"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1pa-k0-8G2">
+                                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1pa-k0-8G2">
                                                         <rect key="frame" x="0.0" y="149" width="159" height="34.5"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="-Select-"/>
                                                         <connections>
-                                                            <action selector="stat5Button:" destination="fW0-F2-kco" eventType="touchUpInside" id="l2G-g4-tmd"/>
+                                                            <action selector="stat5:" destination="fW0-F2-kco" eventType="touchUpInside" id="hoI-EB-sef"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -606,15 +606,15 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="RollD20"/>
                                                         <connections>
-                                                            <action selector="button6:" destination="fW0-F2-kco" eventType="touchUpInside" id="tWy-6n-JBb"/>
+                                                            <action selector="roll6:" destination="fW0-F2-kco" eventType="touchUpInside" id="GyE-jz-BaL"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A2w-k5-ji5">
+                                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A2w-k5-ji5">
                                                         <rect key="frame" x="0.0" y="149" width="159" height="34.5"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="-Select-"/>
                                                         <connections>
-                                                            <action selector="stat6Button:" destination="fW0-F2-kco" eventType="touchUpInside" id="vDD-jC-qnx"/>
+                                                            <action selector="stat6:" destination="fW0-F2-kco" eventType="touchUpInside" id="Xk0-Wd-0Pu"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -622,20 +622,28 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="9VQ-Fl-VlH">
-                                        <rect key="frame" x="85.5" y="610.5" width="177" height="34.5"/>
+                                        <rect key="frame" x="34.5" y="610.5" width="279" height="34.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jnb-18-2vK">
                                                 <rect key="frame" x="0.0" y="0.0" width="75" height="34.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Roll All"/>
                                                 <connections>
-                                                    <action selector="rollAll:" destination="fW0-F2-kco" eventType="touchUpInside" id="dg5-8d-1rd"/>
+                                                    <action selector="rollAll:" destination="fW0-F2-kco" eventType="touchUpInside" id="WM1-Sg-osF"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j7j-Vm-2ZQ">
                                                 <rect key="frame" x="102" y="0.0" width="75" height="34.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Save"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPC-CI-cXW">
+                                                <rect key="frame" x="204" y="0.0" width="75" height="34.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Reset"/>
+                                                <connections>
+                                                    <action selector="reset:" destination="fW0-F2-kco" eventType="touchUpInside" id="DOe-Am-mmq"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -659,19 +667,20 @@
                     </view>
                     <navigationItem key="navigationItem" id="AB0-8z-9ef"/>
                     <connections>
-                        <outlet property="rollAllButton" destination="Jnb-18-2vK" id="Rmg-lo-qBW"/>
-                        <outlet property="rollButton1" destination="L4i-yZ-GsW" id="fI6-Mm-1wm"/>
-                        <outlet property="rollButton2" destination="nnB-eb-FtS" id="6ro-a1-nXi"/>
-                        <outlet property="rollButton3" destination="1p5-6X-vMt" id="gRD-K1-GCc"/>
-                        <outlet property="rollButton4" destination="yj6-b9-LDR" id="HuI-aQ-QJc"/>
-                        <outlet property="rollButton5" destination="f0T-c7-n7b" id="v2m-u5-igK"/>
-                        <outlet property="rollButton6" destination="izJ-VB-eGb" id="fYD-zo-zEx"/>
-                        <outlet property="stat1" destination="NrH-6t-fjw" id="CwQ-xQ-vNr"/>
-                        <outlet property="stat2" destination="pHY-lu-piz" id="QDM-wG-arh"/>
-                        <outlet property="stat3" destination="cnT-H6-FgK" id="jrj-KG-vZ0"/>
-                        <outlet property="stat4" destination="by5-i5-L8G" id="W7W-HJ-Spa"/>
-                        <outlet property="stat5" destination="1pa-k0-8G2" id="wny-Gx-b8Z"/>
-                        <outlet property="stat6" destination="A2w-k5-ji5" id="b0Y-15-f01"/>
+                        <outlet property="reset" destination="ZPC-CI-cXW" id="EJk-sE-0v4"/>
+                        <outlet property="rollAllButton" destination="Jnb-18-2vK" id="M8z-tH-Jd4"/>
+                        <outlet property="rollButton1" destination="L4i-yZ-GsW" id="9Yu-Hp-0WA"/>
+                        <outlet property="rollButton2" destination="nnB-eb-FtS" id="ca3-t4-fzc"/>
+                        <outlet property="rollButton3" destination="1p5-6X-vMt" id="1iX-Wj-HCK"/>
+                        <outlet property="rollButton4" destination="yj6-b9-LDR" id="oLS-8o-OYG"/>
+                        <outlet property="rollButton5" destination="f0T-c7-n7b" id="HkR-Sn-WDS"/>
+                        <outlet property="rollButton6" destination="izJ-VB-eGb" id="Fqm-zU-qw2"/>
+                        <outlet property="statButton1" destination="NrH-6t-fjw" id="2PL-VW-YW4"/>
+                        <outlet property="statButton2" destination="pHY-lu-piz" id="nI2-yO-dkI"/>
+                        <outlet property="statButton3" destination="cnT-H6-FgK" id="epM-G6-Erl"/>
+                        <outlet property="statButton4" destination="by5-i5-L8G" id="ehf-91-cX3"/>
+                        <outlet property="statButton5" destination="1pa-k0-8G2" id="Blq-mh-xG8"/>
+                        <outlet property="statButton6" destination="A2w-k5-ji5" id="pBv-IF-sjr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nvL-kP-SiE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
