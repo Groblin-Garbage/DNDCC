@@ -327,7 +327,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="8Cy-cp-hZb">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="FTL-lz-wvX">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="1TL-wZ-TzS">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="1TL-wZ-TzS">
                                 <rect key="frame" x="302" y="5" width="92" height="34.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -622,23 +622,22 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="9VQ-Fl-VlH">
-                                        <rect key="frame" x="34.5" y="610.5" width="279" height="34.5"/>
+                                        <rect key="frame" x="31" y="610.5" width="286.5" height="34.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jnb-18-2vK">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="34.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="77.5" height="34.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Roll All"/>
                                                 <connections>
                                                     <action selector="rollAll:" destination="fW0-F2-kco" eventType="touchUpInside" id="WM1-Sg-osF"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j7j-Vm-2ZQ">
-                                                <rect key="frame" x="102" y="0.0" width="75" height="34.5"/>
-                                                <state key="normal" title="Button"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="close" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j7j-Vm-2ZQ">
+                                                <rect key="frame" x="104.5" y="0.0" width="77.5" height="34.5"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Save"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPC-CI-cXW">
-                                                <rect key="frame" x="204" y="0.0" width="75" height="34.5"/>
+                                                <rect key="frame" x="209" y="0.0" width="77.5" height="34.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Reset"/>
                                                 <connections>

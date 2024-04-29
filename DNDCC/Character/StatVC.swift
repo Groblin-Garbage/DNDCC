@@ -11,10 +11,10 @@ class StatVC: UIViewController {
     
     //str,dex,con,int,wis,cha
     var stats: [String] = ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"]
-    var statsNum: [Int] = [6,6,6,6,6,6]
     var statsUsed: [Bool] = [false, false, false, false, false, false]
+    var diceUsed: [Bool] = [false, false, false, false, false, false]
     
-    var rolledStats: [Int] = []
+    var rolledStats: [Int] = [6,6,6,6,6,6]
     
     @IBOutlet weak var rollAllButton: UIButton!
     @IBOutlet weak var rollButton1: UIButton!
@@ -34,30 +34,42 @@ class StatVC: UIViewController {
     @IBOutlet weak var reset: UIButton!
     
     @IBAction func roll1(_ sender: UIButton) {
-        rollButton1.setImage(UIImage(named: "\(roll())D20"), for: .normal)
+        rolledStats[0] = roll()
+        rollButton1.setImage(UIImage(named: "\(rolledStats[0])D20"), for: .normal)
     }
     @IBAction func roll2(_ sender: UIButton) {
-        rollButton2.setImage(UIImage(named: "\(roll())D20"), for: .normal)
+        rolledStats[1] = roll()
+        rollButton2.setImage(UIImage(named: "\(rolledStats[1])D20"), for: .normal)
     }
     @IBAction func roll3(_ sender: UIButton) {
-        rollButton3.setImage(UIImage(named: "\(roll())D20"), for: .normal)
+        rolledStats[2] = roll()
+        rollButton3.setImage(UIImage(named: "\(rolledStats[2])D20"), for: .normal)
     }
     @IBAction func roll4(_ sender: UIButton) {
-        rollButton4.setImage(UIImage(named: "\(roll())D20"), for: .normal)
+        rolledStats[3] = roll()
+        rollButton4.setImage(UIImage(named: "\(rolledStats[3])D20"), for: .normal)
     }
     @IBAction func roll5(_ sender: UIButton) {
-        rollButton5.setImage(UIImage(named: "\(roll())D20"), for: .normal)
+        rolledStats[4] = roll()
+        rollButton5.setImage(UIImage(named: "\(rolledStats[4])D20"), for: .normal)
     }
     @IBAction func roll6(_ sender: UIButton) {
-        rollButton6.setImage(UIImage(named: "\(roll())D20"), for: .normal)
+        rolledStats[5] = roll()
+        rollButton6.setImage(UIImage(named: "\(rolledStats[5])D20"), for: .normal)
     }
     @IBAction func rollAll(_ sender: UIButton) {
-        rollButton1.setImage(UIImage(named: "\(roll())D20"), for: .normal)
-        rollButton2.setImage(UIImage(named: "\(roll())D20"), for: .normal)
-        rollButton3.setImage(UIImage(named: "\(roll())D20"), for: .normal)
-        rollButton4.setImage(UIImage(named: "\(roll())D20"), for: .normal)
-        rollButton5.setImage(UIImage(named: "\(roll())D20"), for: .normal)
-        rollButton6.setImage(UIImage(named: "\(roll())D20"), for: .normal)
+        roll1(rollButton1)
+        roll2(rollButton2)
+        roll3(rollButton3)
+        roll4(rollButton4)
+        roll5(rollButton5)
+        roll6(rollButton6)
+//        rollButton1.setImage(UIImage(named: "\(roll())D20"), for: .normal)
+//        rollButton2.setImage(UIImage(named: "\(roll())D20"), for: .normal)
+//        rollButton3.setImage(UIImage(named: "\(roll())D20"), for: .normal)
+//        rollButton4.setImage(UIImage(named: "\(roll())D20"), for: .normal)
+//        rollButton5.setImage(UIImage(named: "\(roll())D20"), for: .normal)
+//        rollButton6.setImage(UIImage(named: "\(roll())D20"), for: .normal)
     }
     
     @IBAction func stat1(_ sender: UIButton) {
@@ -86,14 +98,24 @@ class StatVC: UIViewController {
     }
     
     @IBAction func reset(_ sender: UIButton) {
-        statsNum = [6,6,6,6,6,6]
+        print(rolledStats)
+        rolledStats = [6,6,6,6,6,6]
+        print(statsUsed)
         statsUsed = [false, false, false, false, false, false]
+        print(diceUsed)
+        diceUsed = [false, false, false, false, false, false]
         statButton1.setTitle("-Select-", for: .normal)
         statButton2.setTitle("-Select-", for: .normal)
         statButton3.setTitle("-Select-", for: .normal)
         statButton4.setTitle("-Select-", for: .normal)
         statButton5.setTitle("-Select-", for: .normal)
         statButton6.setTitle("-Select-", for: .normal)
+        rollButton1.setImage(UIImage(named: "rollD20"), for: .normal)
+        rollButton2.setImage(UIImage(named: "rollD20"), for: .normal)
+        rollButton3.setImage(UIImage(named: "rollD20"), for: .normal)
+        rollButton4.setImage(UIImage(named: "rollD20"), for: .normal)
+        rollButton5.setImage(UIImage(named: "rollD20"), for: .normal)
+        rollButton6.setImage(UIImage(named: "rollD20"), for: .normal)
     }
     
     
@@ -142,18 +164,18 @@ class StatVC: UIViewController {
     
     func setStat(statButton: UIButton, stat: String) {
         var statButtons: [UIButton] = [statButton1, statButton2, statButton3, statButton4, statButton5, statButton6]
-        if (statsUsed[stats.firstIndex(of: "\(stat)")!]) {
+        if (statsUsed[stats.firstIndex(of: stat)!]) {
             for button in statButtons {
                 if (button.title(for: .normal) == stat) {
+                    print(diceUsed[statButtons.firstIndex(of: statButton)!])
+                    diceUsed[statButtons.firstIndex(of: button)!] = false
                     button.setTitle("-Select-", for: .normal)
+                    
                 }
             }
-            statButton.setTitle(stat, for: .normal)
-            var oldStat
-            statsNum.replace(<#T##other: Collection##Collection#>, with: <#T##Collection#>)
-        } else {
-            statButton.setTitle(stat, for: .normal)
         }
+        diceUsed[statButtons.firstIndex(of: statButton)!] = true
+        statButton.setTitle(stat, for: .normal)
     }
     
     @objc func getStat(statButton: UIButton) {
@@ -171,3 +193,26 @@ class StatVC: UIViewController {
         present(ac, animated: true)
     }
 }
+
+
+//                    if (stat == "Strength") {
+//
+//                        break
+//                    } else if (stat == "Dexterity") {
+//
+//                        break
+//                    } else if (stat == "Constitution") {
+//
+//                        break
+//                    } else if (stat == "Intelligence") {
+//
+//                        break
+//                    } else if (stat == "Wisdom") {
+//
+//                        break
+//                    } else if (stat == "Charisma") {
+//
+//                        break
+//                    } else {
+//                        break
+//                    }
