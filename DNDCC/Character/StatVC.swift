@@ -180,19 +180,19 @@ class StatVC: UIViewController {
         diceUsed[statButtons.firstIndex(of: statButton)!] = true
         statButton.setTitle(stat, for: .normal)
         
-        for button in statButtons {
-            for button2 in statButtons {
-                if button != button2 {
-                    if button.titleLabel?.text == button2.titleLabel?.text {
-                        let ac = UIAlertController(title: "Stat Selection", message: "You must set each roll to a different stat.", preferredStyle: .alert)
-                        let submitAction = UIAlertAction(title: "Ok", style: .default) {_ in
-                        }
-                        ac.addAction(submitAction)
-                        present(ac, animated: true)
-                    }
-                }
-            }
-        }
+//        for button in statButtons {
+//            for button2 in statButtons {
+//                if button != button2 {
+//                    if button.titleLabel?.text == button2.titleLabel?.text {
+//                        let ac = UIAlertController(title: "Stat Selection", message: "You must set each roll to a different stat.", preferredStyle: .alert)
+//                        let submitAction = UIAlertAction(title: "Ok", style: .default) {_ in
+//                        }
+//                        ac.addAction(submitAction)
+//                        present(ac, animated: true)
+//                    }
+//                }
+//            }
+//        }
         
         for button in statButtons {
             if button.titleLabel?.text == "Strength" {
