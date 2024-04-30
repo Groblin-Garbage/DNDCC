@@ -14,10 +14,12 @@ class ClassObject {
     var profChoices: [ProficiencyObject]  // choices like athletics or animal handling
     var profAdded: [ProficiencyObject]  // guarunteed proficiencies like shields or martial weapons
     var savingThrows: [String]  // "con", "int", "str" format
-    var startingEquipment: [ItemObject]
+    var startingEquipment: String
     var subclasses: [SubclassObject]
+    var subclassLevel: Int
+    var classFeats: [String]
     
-    init(name: String, hitDie: Int, profAmount: Int, profChoices: [ProficiencyObject], profAdded: [ProficiencyObject], savingThrows: [String], startingEquipment: [ItemObject], subclasses: [SubclassObject]) {
+    init(name: String, hitDie: Int, profAmount: Int, profChoices: [ProficiencyObject], profAdded: [ProficiencyObject], savingThrows: [String], startingEquipment: String, subclasses: [SubclassObject], subclassLevel: Int, classFeats: [String]) {
         self.name = name
         self.hitDie = hitDie
         self.profAmount = profAmount
@@ -26,5 +28,7 @@ class ClassObject {
         self.savingThrows = savingThrows
         self.startingEquipment = startingEquipment
         self.subclasses = subclasses
+        self.subclassLevel = subclassLevel
+        self.classFeats = classFeats
     }
 }

@@ -19,12 +19,7 @@
 		426C0FEF2BDAD0FB0090F47B /* ClassObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C0FE12BDAD0FB0090F47B /* ClassObject.swift */; };
 		426C0FF02BDAD0FB0090F47B /* CharacterObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C0FE22BDAD0FB0090F47B /* CharacterObject.swift */; };
 		426C0FF12BDAD0FB0090F47B /* ProficiencyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C0FE32BDAD0FB0090F47B /* ProficiencyObject.swift */; };
-		426C0FF22BDAD0FB0090F47B /* ItemObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C0FE42BDAD0FB0090F47B /* ItemObject.swift */; };
 		426C0FF32BDAD0FB0090F47B /* BackgroundObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C0FE52BDAD0FB0090F47B /* BackgroundObject.swift */; };
-		426C0FF42BDAD0FB0090F47B /* WeaponObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C0FE72BDAD0FB0090F47B /* WeaponObject.swift */; };
-		426C0FF52BDAD0FB0090F47B /* MiscObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C0FE82BDAD0FB0090F47B /* MiscObject.swift */; };
-		426C0FF62BDAD0FB0090F47B /* MagicItemObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C0FE92BDAD0FB0090F47B /* MagicItemObject.swift */; };
-		426C0FF72BDAD0FB0090F47B /* ArmorObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C0FEA2BDAD0FB0090F47B /* ArmorObject.swift */; };
 		426C0FF82BDAD0FB0090F47B /* SubraceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C0FEB2BDAD0FB0090F47B /* SubraceObject.swift */; };
 		426C0FF92BDAD0FB0090F47B /* RaceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C0FEC2BDAD0FB0090F47B /* RaceObject.swift */; };
 		428EF7912BD19CE100A9722C /* ProficienciesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EF7612BD19CE100A9722C /* ProficienciesVC.swift */; };
@@ -57,12 +52,7 @@
 		426C0FE12BDAD0FB0090F47B /* ClassObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassObject.swift; sourceTree = "<group>"; };
 		426C0FE22BDAD0FB0090F47B /* CharacterObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterObject.swift; sourceTree = "<group>"; };
 		426C0FE32BDAD0FB0090F47B /* ProficiencyObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProficiencyObject.swift; sourceTree = "<group>"; };
-		426C0FE42BDAD0FB0090F47B /* ItemObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemObject.swift; sourceTree = "<group>"; };
 		426C0FE52BDAD0FB0090F47B /* BackgroundObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundObject.swift; sourceTree = "<group>"; };
-		426C0FE72BDAD0FB0090F47B /* WeaponObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaponObject.swift; sourceTree = "<group>"; };
-		426C0FE82BDAD0FB0090F47B /* MiscObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiscObject.swift; sourceTree = "<group>"; };
-		426C0FE92BDAD0FB0090F47B /* MagicItemObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicItemObject.swift; sourceTree = "<group>"; };
-		426C0FEA2BDAD0FB0090F47B /* ArmorObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArmorObject.swift; sourceTree = "<group>"; };
 		426C0FEB2BDAD0FB0090F47B /* SubraceObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubraceObject.swift; sourceTree = "<group>"; };
 		426C0FEC2BDAD0FB0090F47B /* RaceObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaceObject.swift; sourceTree = "<group>"; };
 		428EF7612BD19CE100A9722C /* ProficienciesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProficienciesVC.swift; sourceTree = "<group>"; };
@@ -128,29 +118,16 @@
 		426C0FDE2BDAD0FB0090F47B /* Objects */ = {
 			isa = PBXGroup;
 			children = (
-				426C0FDF2BDAD0FB0090F47B /* SubclassObject.swift */,
-				426C0FE02BDAD0FB0090F47B /* SpellObject.swift */,
-				426C0FE12BDAD0FB0090F47B /* ClassObject.swift */,
 				426C0FE22BDAD0FB0090F47B /* CharacterObject.swift */,
-				426C0FE32BDAD0FB0090F47B /* ProficiencyObject.swift */,
-				426C0FE42BDAD0FB0090F47B /* ItemObject.swift */,
-				426C0FE52BDAD0FB0090F47B /* BackgroundObject.swift */,
-				426C0FE62BDAD0FB0090F47B /* itemTypes */,
-				426C0FEB2BDAD0FB0090F47B /* SubraceObject.swift */,
+				426C0FE12BDAD0FB0090F47B /* ClassObject.swift */,
+				426C0FDF2BDAD0FB0090F47B /* SubclassObject.swift */,
 				426C0FEC2BDAD0FB0090F47B /* RaceObject.swift */,
+				426C0FEB2BDAD0FB0090F47B /* SubraceObject.swift */,
+				426C0FE02BDAD0FB0090F47B /* SpellObject.swift */,
+				426C0FE32BDAD0FB0090F47B /* ProficiencyObject.swift */,
+				426C0FE52BDAD0FB0090F47B /* BackgroundObject.swift */,
 			);
 			path = Objects;
-			sourceTree = "<group>";
-		};
-		426C0FE62BDAD0FB0090F47B /* itemTypes */ = {
-			isa = PBXGroup;
-			children = (
-				426C0FE72BDAD0FB0090F47B /* WeaponObject.swift */,
-				426C0FE82BDAD0FB0090F47B /* MiscObject.swift */,
-				426C0FE92BDAD0FB0090F47B /* MagicItemObject.swift */,
-				426C0FEA2BDAD0FB0090F47B /* ArmorObject.swift */,
-			);
-			path = itemTypes;
 			sourceTree = "<group>";
 		};
 		428EF7602BD19CE100A9722C /* Character */ = {
@@ -251,7 +228,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				426C0FF72BDAD0FB0090F47B /* ArmorObject.swift in Sources */,
 				428EF7B82BD19CE100A9722C /* ItemsTVC.swift in Sources */,
 				426C0FEF2BDAD0FB0090F47B /* ClassObject.swift in Sources */,
 				428EF7B42BD19CE100A9722C /* InfoVC.swift in Sources */,
@@ -260,15 +236,12 @@
 				428EF7B72BD19CE100A9722C /* RaceTVC.swift in Sources */,
 				428EF7B52BD19CE100A9722C /* FeatsTVC.swift in Sources */,
 				426C0FEE2BDAD0FB0090F47B /* SpellObject.swift in Sources */,
-				426C0FF22BDAD0FB0090F47B /* ItemObject.swift in Sources */,
-				426C0FF62BDAD0FB0090F47B /* MagicItemObject.swift in Sources */,
 				428EF7A32BD19CE100A9722C /* StatVC.swift in Sources */,
 				428EF7B62BD19CE100A9722C /* ClassDetailsVC.swift in Sources */,
 				426C0FF92BDAD0FB0090F47B /* RaceObject.swift in Sources */,
 				428EF7A22BD19CE100A9722C /* CharacterTVC.swift in Sources */,
 				36F3707B2BACA74D002DCC99 /* homeVC.swift in Sources */,
 				428EF7A12BD19CE100A9722C /* ViewVC.swift in Sources */,
-				426C0FF52BDAD0FB0090F47B /* MiscObject.swift in Sources */,
 				3660B79B2BAB5A3700766221 /* DNDCC.xcdatamodeld in Sources */,
 				428EF7BB2BD19CE100A9722C /* SpellsTVC.swift in Sources */,
 				426C0FF32BDAD0FB0090F47B /* BackgroundObject.swift in Sources */,
@@ -276,7 +249,6 @@
 				3660B7932BAB5A3700766221 /* SceneDelegate.swift in Sources */,
 				426C0FF02BDAD0FB0090F47B /* CharacterObject.swift in Sources */,
 				428EF7922BD19CE100A9722C /* CreateVC.swift in Sources */,
-				426C0FF42BDAD0FB0090F47B /* WeaponObject.swift in Sources */,
 				426C0FF12BDAD0FB0090F47B /* ProficiencyObject.swift in Sources */,
 				428EF7BA2BD19CE100A9722C /* ClassTVC.swift in Sources */,
 				426C0FED2BDAD0FB0090F47B /* SubclassObject.swift in Sources */,

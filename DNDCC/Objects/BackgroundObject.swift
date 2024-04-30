@@ -11,11 +11,11 @@ class BackgroundObject {
     var description: String
     var proficiencies: [String]
     var languages: [String]
-    var equipment: [ItemObject]
+    var equipment: [String]
     var feature: [String]
     var baseGP: Int
     
-    init(description: String, proficiencies: [String], languages: [String], equipment: [ItemObject], feature: [String], baseGP: Int) {
+    init(description: String, proficiencies: [String], languages: [String], equipment: [String], feature: [String], baseGP: Int) {
         self.description = description
         self.proficiencies = proficiencies
         self.languages = languages
