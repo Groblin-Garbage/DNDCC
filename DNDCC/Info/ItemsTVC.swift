@@ -9,6 +9,8 @@ import UIKit
 
 class ItemsTVC: UITableViewController {
 
+    var items: [ItemObject] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

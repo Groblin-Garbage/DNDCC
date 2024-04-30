@@ -9,6 +9,8 @@ import UIKit
 
 class FeatsTVC: UITableViewController {
 
+    //var feats: [FeatObject] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

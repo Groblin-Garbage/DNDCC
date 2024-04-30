@@ -25,7 +25,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="SpellsTVC"/>
                                         <connections>
-                                            <segue destination="7pS-OT-GGj" kind="show" id="9OT-wt-PlH"/>
+                                            <segue destination="7pS-OT-GGj" kind="show" identifier="spellSegue" id="9OT-wt-PlH"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YeE-qp-pv6">
@@ -33,7 +33,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="ClassTVC"/>
                                         <connections>
-                                            <segue destination="evh-Le-if2" kind="show" id="g7Y-z9-Pe9"/>
+                                            <segue destination="evh-Le-if2" kind="show" identifier="classSegue" id="g7Y-z9-Pe9"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8jD-vs-aNz">
@@ -41,7 +41,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="ItemsTVC"/>
                                         <connections>
-                                            <segue destination="gcW-o6-89B" kind="show" id="nfm-Zf-Lms"/>
+                                            <segue destination="gcW-o6-89B" kind="show" identifier="itemSegue" id="nfm-Zf-Lms"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJ7-xA-dd8">
@@ -49,7 +49,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="RaceTVC"/>
                                         <connections>
-                                            <segue destination="Ygl-LO-imy" kind="show" id="jhu-Nb-lND"/>
+                                            <segue destination="Ygl-LO-imy" kind="show" identifier="raceSegue" id="jhu-Nb-lND"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aag-MK-SxI">
@@ -57,7 +57,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="FeatsTVC"/>
                                         <connections>
-                                            <segue destination="5xU-T6-1TE" kind="show" id="wc5-8y-NDi"/>
+                                            <segue destination="5xU-T6-1TE" kind="show" identifier="featSegue" id="wc5-8y-NDi"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -254,7 +254,7 @@
         <!--HomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="homeVC" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="homeVC" customModule="DNDCC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -364,6 +364,9 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="251" height="52.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="characterName:" destination="dtO-D8-eSA" eventType="editingDidEnd" id="ek1-Ra-8Mb"/>
+                                                        </connections>
                                                     </textField>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kwI-Xf-0nX">
                                                         <rect key="frame" x="278" y="0.0" width="94" height="52.5"/>
@@ -477,7 +480,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="filled" title="Stats"/>
                                                         <connections>
-                                                            <segue destination="fW0-F2-kco" kind="show" id="mlu-tx-ErG"/>
+                                                            <segue destination="fW0-F2-kco" kind="show" identifier="statSegue" id="mlu-tx-ErG"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g3l-1X-6SK">
@@ -606,6 +609,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qjf-n5-Xes"/>
+                    <connections>
+                        <outlet property="characterNameTextField" destination="GmO-G0-oVe" id="tPH-Q4-KpF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PKw-87-Nzv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -793,6 +799,10 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="close" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j7j-Vm-2ZQ">
                                                 <rect key="frame" x="104.5" y="0.0" width="77.5" height="34.5"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Save"/>
+                                                <connections>
+                                                    <action selector="save:" destination="fW0-F2-kco" eventType="touchUpInside" id="WsO-Dd-DGw"/>
+                                                    <segue destination="MF9-CF-EEf" kind="unwind" unwindAction="unwindToHomeWithUnwindSegue:" id="eRJ-Ni-xdm"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPC-CI-cXW">
                                                 <rect key="frame" x="209" y="0.0" width="77.5" height="34.5"/>
@@ -841,6 +851,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nvL-kP-SiE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="MF9-CF-EEf" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2580" y="708"/>
         </scene>

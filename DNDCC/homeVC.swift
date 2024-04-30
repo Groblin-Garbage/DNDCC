@@ -7,7 +7,7 @@
 
 import UIKit
 
-class homeTVC: UITableViewController {
+class homeVC: UIViewController {
 
     var spells = [SpellObject]()
     var classes = [ClassObject]()
@@ -17,20 +17,21 @@ class homeTVC: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print("ANYTHING")
     }
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "sendInfoSegue" {
-            let infoVC = segue.destination as! InfoVC
+        print("")
+        if segue.identifier == "sendAllSegue" {
+            print("PLEASE")
+            let destinationVC = segue.destination as! InfoVC
             addSpells()
             addClasses()
             
             
-            infoVC.spells = spells
-            infoVC.classes = classes
-            infoVC.test = test
+            destinationVC.spells = spells
+            destinationVC.classes = classes
         }
     }
     
