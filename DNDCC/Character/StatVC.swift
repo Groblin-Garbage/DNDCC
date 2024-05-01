@@ -15,7 +15,7 @@ class StatVC: UIViewController {
     var diceUsed: [Bool] = [false, false, false, false, false, false]
     
     var rolledStats: [Int] = [6,6,6,6,6,6]
-    var tempStats: [Int] = []
+    var tempStats: [Int] = [0,0,0,0,0,0]
     
     @IBOutlet weak var rollAllButton: UIButton!
     @IBOutlet weak var rollButton1: UIButton!
@@ -120,7 +120,48 @@ class StatVC: UIViewController {
     }
     
     @IBAction func save(_ sender: UIButton) {
-        if
+        
+        var statButtons: [UIButton] = [statButton1, statButton2, statButton3, statButton4, statButton5, statButton6]
+
+        for (index, button) in statButtons.enumerated() {
+            if button.titleLabel?.text == "-Select-" {
+                let ac = UIAlertController(title: "Stat Selection", message: "You must set each roll to a different stat.", preferredStyle: .alert)
+                let submitAction = UIAlertAction(title: "Ok", style: .default) {_ in
+                }
+                ac.addAction(submitAction)
+                present(ac, animated: true)
+                return
+            } else if button.titleLabel?.text == "Strength" {
+                tempStats[0] = (rolledStats[index])
+            }
+        }
+        for (index, button) in statButtons.enumerated() {
+            if button.titleLabel?.text == "Dexterity" {
+                tempStats[1] = (rolledStats[index])
+            }
+        }
+        for (index, button) in statButtons.enumerated() {
+            if button.titleLabel?.text == "Constitution" {
+                tempStats[2] = (rolledStats[index])
+            }
+        }
+        for (index, button) in statButtons.enumerated() {
+            if button.titleLabel?.text == "Intelligence" {
+                tempStats[3] = (rolledStats[index])
+            }
+        }
+        for (index, button) in statButtons.enumerated() {
+            if button.titleLabel?.text == "Wisdom" {
+                tempStats[4] = (rolledStats[index])
+            }
+        }
+        for (index, button) in statButtons.enumerated() {
+            if button.titleLabel?.text == "Charisma" {
+                tempStats[5] = (rolledStats[index])
+            }
+        }
+
+        rolledStats = tempStats
     }
     
     override func viewDidLoad() {
@@ -194,11 +235,45 @@ class StatVC: UIViewController {
 //            }
 //        }
         
-        for button in statButtons {
-            if button.titleLabel?.text == "Strength" {
-                //tempStats.append()
-            }
-        }
+//        for (index, button) in statButtons {
+//            if button.titleLabel?.text == "-Select-" {
+//                let ac = UIAlertController(title: "Stat Selection", message: "You must set each roll to a different stat.", preferredStyle: .alert)
+//                let submitAction = UIAlertAction(title: "Ok", style: .default) {_ in
+//                }
+//                ac.addAction(submitAction)
+//                present(ac, animated: true)
+//                return
+//            } else if button.titleLabel?.text == "Strength" {
+//                tempStats.append(rolledStats[index])!
+//            }
+//        }
+//        for (index, button) in statButtons {
+//            if button.titleLabel?.text == "Dexterity" {
+//                tempStats.append(rolledStats[index])!
+//            }
+//        }
+//        for (index, button) in statButtons {
+//            if button.titleLabel?.text == "Constitution" {
+//                tempStats.append(rolledStats[index])!
+//            }
+//        }
+//        for (index, button) in statButtons {
+//            if button.titleLabel?.text == "Intelligence" {
+//                tempStats.append(rolledStats[index])!
+//            }
+//        }
+//        for (index, button) in statButtons {
+//            if button.titleLabel?.text == "Wisdom" {
+//                tempStats.append(rolledStats[index])!
+//            }
+//        }
+//        for (index, button) in statButtons {
+//            if button.titleLabel?.text == "Charisma" {
+//                tempStats.append(rolledStats[index])!
+//            }
+//        }
+//
+//        rolledStats = tempStats
         
         
     }

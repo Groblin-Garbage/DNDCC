@@ -34,7 +34,7 @@ class CharacterTVC: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
+        //cell.textLabel?.text = "Click create to make a new character"
         // Configure the cell...
 
         return cell

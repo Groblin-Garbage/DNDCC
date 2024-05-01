@@ -7,7 +7,18 @@
 
 import UIKit
 
-class CreateVC: UIViewController {
+
+class CreateVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 0 //number of cells
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = inventoryTable.dequeueReusableCell(withIdentifier: name, for: indexPath) as! SpellCell
+        //cell.nameLabel = Array[indexPath.row]
+        return cell
+    }
+    
 
     var characterStats: [Int] = []
     var statsSet: Bool = false
@@ -16,6 +27,7 @@ class CreateVC: UIViewController {
     
     @IBOutlet weak var characterNameTextField: UITextField!
     
+    @IBOutlet weak var inventoryTable: UITableView!
     
     
     
@@ -36,12 +48,15 @@ class CreateVC: UIViewController {
         let statVC = segue.source as! StatVC
         
         characterStats = statVC.rolledStats
-        statsSet = true
+        //statsSet = true
         print(characterStats)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        inventoryTable.delegate = self
+        inventoryTable.dataSource = self
         
         
     }
