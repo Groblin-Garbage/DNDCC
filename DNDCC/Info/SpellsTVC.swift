@@ -9,8 +9,6 @@ import UIKit
 
 class SpellsTVC: UITableViewController {
     
-    var spells: [SpellObject] = []
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 

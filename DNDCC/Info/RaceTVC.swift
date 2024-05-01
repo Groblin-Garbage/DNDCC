@@ -9,8 +9,6 @@ import UIKit
 
 class RaceTVC: UITableViewController {
 
-    var races: [RaceObject] = []
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
