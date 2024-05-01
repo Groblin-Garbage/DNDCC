@@ -13,7 +13,6 @@
 		3660B79B2BAB5A3700766221 /* DNDCC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3660B7992BAB5A3700766221 /* DNDCC.xcdatamodeld */; };
 		3660B79D2BAB5A3900766221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3660B79C2BAB5A3900766221 /* Assets.xcassets */; };
 		3660B7A02BAB5A3900766221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3660B79E2BAB5A3900766221 /* LaunchScreen.storyboard */; };
-		36F3707B2BACA74D002DCC99 /* homeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3707A2BACA74D002DCC99 /* homeVC.swift */; };
 		4218DA192BE2BBE8008CDB3C /* SpellCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4218DA182BE2BBE8008CDB3C /* SpellCell.swift */; };
 		426C0FED2BDAD0FB0090F47B /* SubclassObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C0FDF2BDAD0FB0090F47B /* SubclassObject.swift */; };
 		426C0FEE2BDAD0FB0090F47B /* SpellObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C0FE02BDAD0FB0090F47B /* SpellObject.swift */; };
@@ -52,7 +51,6 @@
 		3660B79C2BAB5A3900766221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3660B79F2BAB5A3900766221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3660B7A12BAB5A3900766221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		36F3707A2BACA74D002DCC99 /* homeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeVC.swift; sourceTree = "<group>"; };
 		4218DA182BE2BBE8008CDB3C /* SpellCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellCell.swift; sourceTree = "<group>"; };
 		426C0FDF2BDAD0FB0090F47B /* SubclassObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubclassObject.swift; sourceTree = "<group>"; };
 		426C0FE02BDAD0FB0090F47B /* SpellObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpellObject.swift; sourceTree = "<group>"; };
@@ -122,7 +120,6 @@
 				3660B79E2BAB5A3900766221 /* LaunchScreen.storyboard */,
 				3660B7A12BAB5A3900766221 /* Info.plist */,
 				3660B7992BAB5A3700766221 /* DNDCC.xcdatamodeld */,
-				36F3707A2BACA74D002DCC99 /* homeVC.swift */,
 				4218DA182BE2BBE8008CDB3C /* SpellCell.swift */,
 			);
 			path = DNDCC;
@@ -270,7 +267,6 @@
 				428EF7B62BD19CE100A9722C /* ClassDetailsVC.swift in Sources */,
 				426C0FF92BDAD0FB0090F47B /* RaceObject.swift in Sources */,
 				428EF7A22BD19CE100A9722C /* CharacterTVC.swift in Sources */,
-				36F3707B2BACA74D002DCC99 /* homeVC.swift in Sources */,
 				428EF7A12BD19CE100A9722C /* ViewVC.swift in Sources */,
 				426C0FF52BDAD0FB0090F47B /* MiscObject.swift in Sources */,
 				3660B79B2BAB5A3700766221 /* DNDCC.xcdatamodeld in Sources */,
