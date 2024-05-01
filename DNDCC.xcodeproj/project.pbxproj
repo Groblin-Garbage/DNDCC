@@ -13,6 +13,27 @@
 		3660B79B2BAB5A3700766221 /* DNDCC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3660B7992BAB5A3700766221 /* DNDCC.xcdatamodeld */; };
 		3660B79D2BAB5A3900766221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3660B79C2BAB5A3900766221 /* Assets.xcassets */; };
 		3660B7A02BAB5A3900766221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3660B79E2BAB5A3900766221 /* LaunchScreen.storyboard */; };
+		3697E5952BE2A9FB00228712 /* Class8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E57C2BE2A9FB00228712 /* Class8.txt */; };
+		3697E5962BE2A9FB00228712 /* Class9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E57D2BE2A9FB00228712 /* Class9.txt */; };
+		3697E5972BE2A9FB00228712 /* Class1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E57E2BE2A9FB00228712 /* Class1.txt */; };
+		3697E5982BE2A9FB00228712 /* Class2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E5802BE2A9FB00228712 /* Class2.txt */; };
+		3697E5992BE2A9FB00228712 /* Class3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E5812BE2A9FB00228712 /* Class3.txt */; };
+		3697E59A2BE2A9FB00228712 /* Class11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E5822BE2A9FB00228712 /* Class11.txt */; };
+		3697E59B2BE2A9FB00228712 /* Class7.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E5832BE2A9FB00228712 /* Class7.txt */; };
+		3697E59C2BE2A9FB00228712 /* Class6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E5842BE2A9FB00228712 /* Class6.txt */; };
+		3697E59D2BE2A9FB00228712 /* Class10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E5852BE2A9FB00228712 /* Class10.txt */; };
+		3697E59E2BE2A9FB00228712 /* Class12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E5862BE2A9FB00228712 /* Class12.txt */; };
+		3697E59F2BE2A9FB00228712 /* Class4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E5872BE2A9FB00228712 /* Class4.txt */; };
+		3697E5A02BE2A9FB00228712 /* Class5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E5882BE2A9FB00228712 /* Class5.txt */; };
+		3697E5A12BE2A9FB00228712 /* Race9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E58B2BE2A9FB00228712 /* Race9.txt */; };
+		3697E5A22BE2A9FB00228712 /* Race8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E58C2BE2A9FB00228712 /* Race8.txt */; };
+		3697E5A32BE2A9FB00228712 /* Race5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E58E2BE2A9FB00228712 /* Race5.txt */; };
+		3697E5A42BE2A9FB00228712 /* Race4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E58F2BE2A9FB00228712 /* Race4.txt */; };
+		3697E5A52BE2A9FB00228712 /* Race6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E5902BE2A9FB00228712 /* Race6.txt */; };
+		3697E5A62BE2A9FB00228712 /* Race7.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E5912BE2A9FB00228712 /* Race7.txt */; };
+		3697E5A72BE2A9FB00228712 /* Race3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E5922BE2A9FB00228712 /* Race3.txt */; };
+		3697E5A82BE2A9FB00228712 /* Race2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E5932BE2A9FB00228712 /* Race2.txt */; };
+		3697E5A92BE2A9FB00228712 /* Race1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E5942BE2A9FB00228712 /* Race1.txt */; };
 		36F3707B2BACA74D002DCC99 /* homeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3707A2BACA74D002DCC99 /* homeVC.swift */; };
 		426C0FED2BDAD0FB0090F47B /* SubclassObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C0FDF2BDAD0FB0090F47B /* SubclassObject.swift */; };
 		426C0FEE2BDAD0FB0090F47B /* SpellObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C0FE02BDAD0FB0090F47B /* SpellObject.swift */; };
@@ -46,6 +67,27 @@
 		3660B79C2BAB5A3900766221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3660B79F2BAB5A3900766221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3660B7A12BAB5A3900766221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3697E57C2BE2A9FB00228712 /* Class8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Class8.txt; sourceTree = "<group>"; };
+		3697E57D2BE2A9FB00228712 /* Class9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Class9.txt; sourceTree = "<group>"; };
+		3697E57E2BE2A9FB00228712 /* Class1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Class1.txt; sourceTree = "<group>"; };
+		3697E5802BE2A9FB00228712 /* Class2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Class2.txt; sourceTree = "<group>"; };
+		3697E5812BE2A9FB00228712 /* Class3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Class3.txt; sourceTree = "<group>"; };
+		3697E5822BE2A9FB00228712 /* Class11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Class11.txt; sourceTree = "<group>"; };
+		3697E5832BE2A9FB00228712 /* Class7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Class7.txt; sourceTree = "<group>"; };
+		3697E5842BE2A9FB00228712 /* Class6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Class6.txt; sourceTree = "<group>"; };
+		3697E5852BE2A9FB00228712 /* Class10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Class10.txt; sourceTree = "<group>"; };
+		3697E5862BE2A9FB00228712 /* Class12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Class12.txt; sourceTree = "<group>"; };
+		3697E5872BE2A9FB00228712 /* Class4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Class4.txt; sourceTree = "<group>"; };
+		3697E5882BE2A9FB00228712 /* Class5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Class5.txt; sourceTree = "<group>"; };
+		3697E58B2BE2A9FB00228712 /* Race9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Race9.txt; sourceTree = "<group>"; };
+		3697E58C2BE2A9FB00228712 /* Race8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Race8.txt; sourceTree = "<group>"; };
+		3697E58E2BE2A9FB00228712 /* Race5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Race5.txt; sourceTree = "<group>"; };
+		3697E58F2BE2A9FB00228712 /* Race4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Race4.txt; sourceTree = "<group>"; };
+		3697E5902BE2A9FB00228712 /* Race6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Race6.txt; sourceTree = "<group>"; };
+		3697E5912BE2A9FB00228712 /* Race7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Race7.txt; sourceTree = "<group>"; };
+		3697E5922BE2A9FB00228712 /* Race3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Race3.txt; sourceTree = "<group>"; };
+		3697E5932BE2A9FB00228712 /* Race2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Race2.txt; sourceTree = "<group>"; };
+		3697E5942BE2A9FB00228712 /* Race1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Race1.txt; sourceTree = "<group>"; };
 		36F3707A2BACA74D002DCC99 /* homeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeVC.swift; sourceTree = "<group>"; };
 		426C0FDF2BDAD0FB0090F47B /* SubclassObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubclassObject.swift; sourceTree = "<group>"; };
 		426C0FE02BDAD0FB0090F47B /* SpellObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpellObject.swift; sourceTree = "<group>"; };
@@ -111,8 +153,85 @@
 				3660B7A12BAB5A3900766221 /* Info.plist */,
 				3660B7992BAB5A3700766221 /* DNDCC.xcdatamodeld */,
 				36F3707A2BACA74D002DCC99 /* homeVC.swift */,
+				3697E5792BE2A9FB00228712 /* Data */,
 			);
 			path = DNDCC;
+			sourceTree = "<group>";
+		};
+		3697E5792BE2A9FB00228712 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3697E57A2BE2A9FB00228712 /* CharacterData */,
+				3697E57B2BE2A9FB00228712 /* ClassData */,
+				3697E58A2BE2A9FB00228712 /* RaceData */,
+				3697E5892BE2A9FB00228712 /* SpellData */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3697E57A2BE2A9FB00228712 /* CharacterData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CharacterData;
+			sourceTree = "<group>";
+		};
+		3697E57B2BE2A9FB00228712 /* ClassData */ = {
+			isa = PBXGroup;
+			children = (
+				3697E57E2BE2A9FB00228712 /* Class1.txt */,
+				3697E5802BE2A9FB00228712 /* Class2.txt */,
+				3697E5812BE2A9FB00228712 /* Class3.txt */,
+				3697E5872BE2A9FB00228712 /* Class4.txt */,
+				3697E5882BE2A9FB00228712 /* Class5.txt */,
+				3697E5842BE2A9FB00228712 /* Class6.txt */,
+				3697E5832BE2A9FB00228712 /* Class7.txt */,
+				3697E57C2BE2A9FB00228712 /* Class8.txt */,
+				3697E57D2BE2A9FB00228712 /* Class9.txt */,
+				3697E5852BE2A9FB00228712 /* Class10.txt */,
+				3697E5822BE2A9FB00228712 /* Class11.txt */,
+				3697E5862BE2A9FB00228712 /* Class12.txt */,
+				3697E57F2BE2A9FB00228712 /* SubclassData */,
+			);
+			path = ClassData;
+			sourceTree = "<group>";
+		};
+		3697E57F2BE2A9FB00228712 /* SubclassData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SubclassData;
+			sourceTree = "<group>";
+		};
+		3697E5892BE2A9FB00228712 /* SpellData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SpellData;
+			sourceTree = "<group>";
+		};
+		3697E58A2BE2A9FB00228712 /* RaceData */ = {
+			isa = PBXGroup;
+			children = (
+				3697E5942BE2A9FB00228712 /* Race1.txt */,
+				3697E5932BE2A9FB00228712 /* Race2.txt */,
+				3697E5922BE2A9FB00228712 /* Race3.txt */,
+				3697E58F2BE2A9FB00228712 /* Race4.txt */,
+				3697E58E2BE2A9FB00228712 /* Race5.txt */,
+				3697E5902BE2A9FB00228712 /* Race6.txt */,
+				3697E5912BE2A9FB00228712 /* Race7.txt */,
+				3697E58C2BE2A9FB00228712 /* Race8.txt */,
+				3697E58B2BE2A9FB00228712 /* Race9.txt */,
+				3697E58D2BE2A9FB00228712 /* SubraceData */,
+			);
+			path = RaceData;
+			sourceTree = "<group>";
+		};
+		3697E58D2BE2A9FB00228712 /* SubraceData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SubraceData;
 			sourceTree = "<group>";
 		};
 		426C0FDE2BDAD0FB0090F47B /* Objects */ = {
@@ -215,9 +334,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3697E59D2BE2A9FB00228712 /* Class10.txt in Resources */,
+				3697E5982BE2A9FB00228712 /* Class2.txt in Resources */,
+				3697E5992BE2A9FB00228712 /* Class3.txt in Resources */,
 				3660B7A02BAB5A3900766221 /* LaunchScreen.storyboard in Resources */,
+				3697E5A52BE2A9FB00228712 /* Race6.txt in Resources */,
+				3697E59B2BE2A9FB00228712 /* Class7.txt in Resources */,
+				3697E59A2BE2A9FB00228712 /* Class11.txt in Resources */,
 				3660B79D2BAB5A3900766221 /* Assets.xcassets in Resources */,
+				3697E5952BE2A9FB00228712 /* Class8.txt in Resources */,
+				3697E5A82BE2A9FB00228712 /* Race2.txt in Resources */,
+				3697E59C2BE2A9FB00228712 /* Class6.txt in Resources */,
+				3697E5A92BE2A9FB00228712 /* Race1.txt in Resources */,
+				3697E59E2BE2A9FB00228712 /* Class12.txt in Resources */,
+				3697E5A22BE2A9FB00228712 /* Race8.txt in Resources */,
+				3697E5962BE2A9FB00228712 /* Class9.txt in Resources */,
+				3697E5A12BE2A9FB00228712 /* Race9.txt in Resources */,
 				3660B7982BAB5A3700766221 /* Main.storyboard in Resources */,
+				3697E5A72BE2A9FB00228712 /* Race3.txt in Resources */,
+				3697E59F2BE2A9FB00228712 /* Class4.txt in Resources */,
+				3697E5A42BE2A9FB00228712 /* Race4.txt in Resources */,
+				3697E5A62BE2A9FB00228712 /* Race7.txt in Resources */,
+				3697E5A02BE2A9FB00228712 /* Class5.txt in Resources */,
+				3697E5972BE2A9FB00228712 /* Class1.txt in Resources */,
+				3697E5A32BE2A9FB00228712 /* Race5.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
