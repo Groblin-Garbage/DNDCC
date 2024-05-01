@@ -15,6 +15,7 @@ class StatVC: UIViewController {
     var diceUsed: [Bool] = [false, false, false, false, false, false]
     
     var rolledStats: [Int] = [6,6,6,6,6,6]
+    var tempStats: [Int] = [0,0,0,0,0,0]
     
     @IBOutlet weak var rollAllButton: UIButton!
     @IBOutlet weak var rollButton1: UIButton!
@@ -118,11 +119,54 @@ class StatVC: UIViewController {
         rollButton6.setImage(UIImage(named: "rollD20"), for: .normal)
     }
     
+    @IBAction func save(_ sender: UIButton) {
+        
+        var statButtons: [UIButton] = [statButton1, statButton2, statButton3, statButton4, statButton5, statButton6]
+
+        for (index, button) in statButtons.enumerated() {
+            if button.titleLabel?.text == "-Select-" {
+                let ac = UIAlertController(title: "Stat Selection", message: "You must set each roll to a different stat.", preferredStyle: .alert)
+                let submitAction = UIAlertAction(title: "Ok", style: .default) {_ in
+                }
+                ac.addAction(submitAction)
+                present(ac, animated: true)
+                return
+            } else if button.titleLabel?.text == "Strength" {
+                tempStats[0] = (rolledStats[index])
+            }
+        }
+        for (index, button) in statButtons.enumerated() {
+            if button.titleLabel?.text == "Dexterity" {
+                tempStats[1] = (rolledStats[index])
+            }
+        }
+        for (index, button) in statButtons.enumerated() {
+            if button.titleLabel?.text == "Constitution" {
+                tempStats[2] = (rolledStats[index])
+            }
+        }
+        for (index, button) in statButtons.enumerated() {
+            if button.titleLabel?.text == "Intelligence" {
+                tempStats[3] = (rolledStats[index])
+            }
+        }
+        for (index, button) in statButtons.enumerated() {
+            if button.titleLabel?.text == "Wisdom" {
+                tempStats[4] = (rolledStats[index])
+            }
+        }
+        for (index, button) in statButtons.enumerated() {
+            if button.titleLabel?.text == "Charisma" {
+                tempStats[5] = (rolledStats[index])
+            }
+        }
+
+        rolledStats = tempStats
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
 
@@ -158,7 +202,7 @@ class StatVC: UIViewController {
         goodNums.append(contentsOf: nums.dropFirst(1))
         print(goodNums)
         totalRoll = goodNums[0] + goodNums[1] + goodNums[2]
-        rolledStats.append(totalRoll)
+        //rolledStats.append(totalRoll)
         return totalRoll
     }
     
@@ -176,6 +220,62 @@ class StatVC: UIViewController {
         }
         diceUsed[statButtons.firstIndex(of: statButton)!] = true
         statButton.setTitle(stat, for: .normal)
+        
+//        for button in statButtons {
+//            for button2 in statButtons {
+//                if button != button2 {
+//                    if button.titleLabel?.text == button2.titleLabel?.text {
+//                        let ac = UIAlertController(title: "Stat Selection", message: "You must set each roll to a different stat.", preferredStyle: .alert)
+//                        let submitAction = UIAlertAction(title: "Ok", style: .default) {_ in
+//                        }
+//                        ac.addAction(submitAction)
+//                        present(ac, animated: true)
+//                    }
+//                }
+//            }
+//        }
+        
+//        for (index, button) in statButtons {
+//            if button.titleLabel?.text == "-Select-" {
+//                let ac = UIAlertController(title: "Stat Selection", message: "You must set each roll to a different stat.", preferredStyle: .alert)
+//                let submitAction = UIAlertAction(title: "Ok", style: .default) {_ in
+//                }
+//                ac.addAction(submitAction)
+//                present(ac, animated: true)
+//                return
+//            } else if button.titleLabel?.text == "Strength" {
+//                tempStats.append(rolledStats[index])!
+//            }
+//        }
+//        for (index, button) in statButtons {
+//            if button.titleLabel?.text == "Dexterity" {
+//                tempStats.append(rolledStats[index])!
+//            }
+//        }
+//        for (index, button) in statButtons {
+//            if button.titleLabel?.text == "Constitution" {
+//                tempStats.append(rolledStats[index])!
+//            }
+//        }
+//        for (index, button) in statButtons {
+//            if button.titleLabel?.text == "Intelligence" {
+//                tempStats.append(rolledStats[index])!
+//            }
+//        }
+//        for (index, button) in statButtons {
+//            if button.titleLabel?.text == "Wisdom" {
+//                tempStats.append(rolledStats[index])!
+//            }
+//        }
+//        for (index, button) in statButtons {
+//            if button.titleLabel?.text == "Charisma" {
+//                tempStats.append(rolledStats[index])!
+//            }
+//        }
+//
+//        rolledStats = tempStats
+        
+        
     }
     
     @objc func getStat(statButton: UIButton) {
