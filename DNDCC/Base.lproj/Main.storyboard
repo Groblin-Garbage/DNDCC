@@ -5,7 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
-        <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -300,7 +299,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J5a-uZ-4VW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< Updated upstream
             <point key="canvasLocation" x="964" y="1436"/>
+=======
+            <point key="canvasLocation" x="1417" y="1436"/>
+>>>>>>> Stashed changes
         </scene>
         <!--CharacterTVC-->
         <scene sceneID="bqC-iI-FQB">
@@ -351,6 +354,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< Updated upstream
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="BF2-CN-LIz">
                                 <rect key="frame" x="21" y="92" width="372" height="697.5"/>
                                 <subviews>
@@ -362,11 +366,28 @@
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Character Name" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GmO-G0-oVe">
                                                         <rect key="frame" x="0.0" y="0.0" width="251" height="52.5"/>
+=======
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="BF2-CN-LIz">
+                                <rect key="frame" x="42" y="92" width="330" height="390"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="phK-bJ-5HA">
+                                        <rect key="frame" x="0.0" y="0.0" width="330" height="97"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="Ah0-2P-KhU">
+                                                <rect key="frame" x="0.0" y="0.0" width="330" height="52.5"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Character Name" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GmO-G0-oVe">
+                                                        <rect key="frame" x="0.0" y="0.0" width="209" height="52.5"/>
+>>>>>>> Stashed changes
                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kwI-Xf-0nX">
+<<<<<<< Updated upstream
                                                         <rect key="frame" x="278" y="0.0" width="94" height="52.5"/>
+=======
+                                                        <rect key="frame" x="236" y="0.0" width="94" height="52.5"/>
+>>>>>>> Stashed changes
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Level: 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gf1-YY-DxR">
                                                                 <rect key="frame" x="0.0" y="0.0" width="94" height="20.5"/>
@@ -380,6 +401,7 @@
                                                         </subviews>
                                                     </stackView>
                                                 </subviews>
+<<<<<<< Updated upstream
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="X3j-rl-ACB">
                                                 <rect key="frame" x="0.0" y="62.5" width="372" height="30"/>
@@ -474,6 +496,17 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e8y-fY-BKn">
                                                         <rect key="frame" x="0.0" y="0.0" width="156" height="34.5"/>
+=======
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="330" id="wn7-GA-FiC"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="cKq-00-NcA">
+                                                <rect key="frame" x="0.0" y="62.5" width="330" height="34.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e8y-fY-BKn">
+                                                        <rect key="frame" x="0.0" y="0.0" width="330" height="34.5"/>
+>>>>>>> Stashed changes
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="filled" title="Stats"/>
                                                         <connections>
@@ -492,15 +525,21 @@
                                             </stackView>
                                         </subviews>
                                     </stackView>
+<<<<<<< Updated upstream
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Ssa-Wk-RIf">
                                         <rect key="frame" x="36" y="217" width="300" height="183"/>
+=======
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Ssa-Wk-RIf">
+                                        <rect key="frame" x="45" y="137" width="240" height="106.5"/>
+>>>>>>> Stashed changes
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inventory:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nLI-CJ-btR">
-                                                <rect key="frame" x="0.0" y="0.0" width="300" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stats:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nLI-CJ-btR">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+<<<<<<< Updated upstream
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="yMH-vc-gVI">
                                                 <rect key="frame" x="0.0" y="20.5" width="300" height="128"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -521,30 +560,37 @@
                                             </tableView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="42" translatesAutoresizingMaskIntoConstraints="NO" id="lLe-ja-iDZ">
                                                 <rect key="frame" x="0.0" y="148.5" width="300" height="34.5"/>
+=======
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="42" translatesAutoresizingMaskIntoConstraints="NO" id="lLe-ja-iDZ">
+                                                <rect key="frame" x="0.0" y="20.5" width="240" height="86"/>
+>>>>>>> Stashed changes
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hbr-GD-5Uj">
-                                                        <rect key="frame" x="0.0" y="0.0" width="129" height="34.5"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="Add"/>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uac-do-ylz">
-                                                        <rect key="frame" x="171" y="0.0" width="129" height="34.5"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="Remove"/>
-                                                    </button>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="A4L-Bi-mBg">
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="86"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <color key="textColor" systemColor="labelColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
                                     </stackView>
+<<<<<<< Updated upstream
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eiF-kC-RAr">
                                         <rect key="frame" x="36" y="440" width="300" height="183"/>
+=======
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="U3j-Ae-EtF">
+                                        <rect key="frame" x="45" y="283.5" width="240" height="106.5"/>
+>>>>>>> Stashed changes
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spells:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jgv-D6-3be">
-                                                <rect key="frame" x="0.0" y="0.0" width="300" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inventory:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPf-1X-x5t">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+<<<<<<< Updated upstream
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="0Of-P2-xPi">
                                                 <rect key="frame" x="0.0" y="20.5" width="300" height="128"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -565,21 +611,23 @@
                                             </tableView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="42" translatesAutoresizingMaskIntoConstraints="NO" id="eqx-DN-aZz">
                                                 <rect key="frame" x="0.0" y="148.5" width="300" height="34.5"/>
+=======
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="42" translatesAutoresizingMaskIntoConstraints="NO" id="5qn-0c-Kc1">
+                                                <rect key="frame" x="0.0" y="20.5" width="240" height="86"/>
+>>>>>>> Stashed changes
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FQv-AM-ooG">
-                                                        <rect key="frame" x="0.0" y="0.0" width="129" height="34.5"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="Add"/>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9PA-Y8-aNU">
-                                                        <rect key="frame" x="171" y="0.0" width="129" height="34.5"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="Remove"/>
-                                                    </button>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Example Item" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JgX-am-EvP">
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="86"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <color key="textColor" systemColor="labelColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
                                     </stackView>
+<<<<<<< Updated upstream
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="150" translatesAutoresizingMaskIntoConstraints="NO" id="hiY-4z-SRK">
                                         <rect key="frame" x="37" y="663" width="298" height="34.5"/>
                                         <subviews>
@@ -595,6 +643,8 @@
                                             </button>
                                         </subviews>
                                     </stackView>
+=======
+>>>>>>> Stashed changes
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -625,7 +675,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w9a-yt-tBG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< Updated upstream
             <point key="canvasLocation" x="1777" y="1436"/>
+=======
+            <point key="canvasLocation" x="2472" y="1436"/>
+>>>>>>> Stashed changes
         </scene>
         <!--StatVC-->
         <scene sceneID="v8q-04-aWT">
@@ -865,6 +919,9 @@
     </scenes>
     <resources>
         <image name="RollD20" width="135" height="135"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
