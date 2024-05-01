@@ -34,7 +34,7 @@
 		3697E5A72BE2A9FB00228712 /* Race3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E5922BE2A9FB00228712 /* Race3.txt */; };
 		3697E5A82BE2A9FB00228712 /* Race2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E5932BE2A9FB00228712 /* Race2.txt */; };
 		3697E5A92BE2A9FB00228712 /* Race1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697E5942BE2A9FB00228712 /* Race1.txt */; };
-		4218DA192BE2BBE8008CDB3C /* SpellCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4218DA182BE2BBE8008CDB3C /* SpellCell.swift */; };
+		36F3707B2BACA74D002DCC99 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3707A2BACA74D002DCC99 /* HomeVC.swift */; };
 		426C0FED2BDAD0FB0090F47B /* SubclassObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C0FDF2BDAD0FB0090F47B /* SubclassObject.swift */; };
 		426C0FEE2BDAD0FB0090F47B /* SpellObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C0FE02BDAD0FB0090F47B /* SpellObject.swift */; };
 		426C0FEF2BDAD0FB0090F47B /* ClassObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C0FE12BDAD0FB0090F47B /* ClassObject.swift */; };
@@ -86,7 +86,7 @@
 		3697E5922BE2A9FB00228712 /* Race3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Race3.txt; sourceTree = "<group>"; };
 		3697E5932BE2A9FB00228712 /* Race2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Race2.txt; sourceTree = "<group>"; };
 		3697E5942BE2A9FB00228712 /* Race1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Race1.txt; sourceTree = "<group>"; };
-		4218DA182BE2BBE8008CDB3C /* SpellCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellCell.swift; sourceTree = "<group>"; };
+		36F3707A2BACA74D002DCC99 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		426C0FDF2BDAD0FB0090F47B /* SubclassObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubclassObject.swift; sourceTree = "<group>"; };
 		426C0FE02BDAD0FB0090F47B /* SpellObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpellObject.swift; sourceTree = "<group>"; };
 		426C0FE12BDAD0FB0090F47B /* ClassObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassObject.swift; sourceTree = "<group>"; };
@@ -148,8 +148,8 @@
 				3660B79E2BAB5A3900766221 /* LaunchScreen.storyboard */,
 				3660B7A12BAB5A3900766221 /* Info.plist */,
 				3660B7992BAB5A3700766221 /* DNDCC.xcdatamodeld */,
+				36F3707A2BACA74D002DCC99 /* HomeVC.swift */,
 				3697E5792BE2A9FB00228712 /* Data */,
-				4218DA182BE2BBE8008CDB3C /* SpellCell.swift */,
 			);
 			path = DNDCC;
 			sourceTree = "<group>";
@@ -362,7 +362,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4218DA192BE2BBE8008CDB3C /* SpellCell.swift in Sources */,
 				426C0FEF2BDAD0FB0090F47B /* ClassObject.swift in Sources */,
 				428EF7B42BD19CE100A9722C /* InfoVC.swift in Sources */,
 				428EF7B92BD19CE100A9722C /* RaceDetailsVC.swift in Sources */,
@@ -373,6 +372,7 @@
 				428EF7B62BD19CE100A9722C /* ClassDetailsVC.swift in Sources */,
 				426C0FF92BDAD0FB0090F47B /* RaceObject.swift in Sources */,
 				428EF7A22BD19CE100A9722C /* CharacterTVC.swift in Sources */,
+				36F3707B2BACA74D002DCC99 /* HomeVC.swift in Sources */,
 				428EF7A12BD19CE100A9722C /* ViewVC.swift in Sources */,
 				3660B79B2BAB5A3700766221 /* DNDCC.xcdatamodeld in Sources */,
 				428EF7BB2BD19CE100A9722C /* SpellsTVC.swift in Sources */,

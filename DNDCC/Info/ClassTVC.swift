@@ -9,8 +9,6 @@ import UIKit
 
 class ClassTVC: UITableViewController {
 
-    var classes: [ClassObject] = []
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
