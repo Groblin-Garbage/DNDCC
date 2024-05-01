@@ -7,17 +7,21 @@
 
 import UIKit
 
-class homeTVC: UITableViewController {
+class HomeVC: UIViewController {
 
     var spells = [SpellObject]()
     var classes = [ClassObject]()
     var test = ["word1", "word2"]
     
+    var totalClassNum: Int
+    var totalRaceNum: Int
+    
     var instantaneous = "Instantaneous"
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        countClasses()
+        countRaces()
     }
     
     
@@ -50,7 +54,13 @@ class homeTVC: UITableViewController {
     
     //CLASSES
     func addClasses() {
-        classes.append(ClassObject(name: "Barbarian", hitDie: 12, profAmount: 2, profChoices: [ProficiencyObject(name: "Animal Handling", proficiency: true, expertise: false), ProficiencyObject(name: "Athletics", proficiency: true, expertise: false), ProficiencyObject(name: "Intimidation", proficiency: true, expertise: false)], profAdded: [ProficiencyObject(name: "Shields", proficiency: true, expertise: false)], savingThrows: ["str", "con"], startingEquipment: [], subclasses: []))
+        for num in totalClassNum {
+            if let levelFilePath = Bundle.main.path(forResource: "Class\(num)", ofType: "txt") {
+                
+            }
+        }
+        
+//        classes.append(ClassObject(name: "Barbarian", hitDie: 12, profAmount: 2, profChoices: [ProficiencyObject(name: "Animal Handling", proficiency: true, expertise: false), ProficiencyObject(name: "Athletics", proficiency: true, expertise: false), ProficiencyObject(name: "Intimidation", proficiency: true, expertise: false)], profAdded: [ProficiencyObject(name: "Shields", proficiency: true, expertise: false)], savingThrows: ["str", "con"], startingEquipment: [], subclasses: []))
     }
     
     //SUBCLASSES
@@ -69,14 +79,20 @@ class homeTVC: UITableViewController {
         spells.append(SpellObject(name: "Alarm", level: 1, components: ["V", "S", "M"], material: "a tiny bell and a piece of fine silver wire)", range: "30 ft", description: "You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible. A mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping. An audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.", ritual: true, concentration: false, duration: "8 Hours", castingTime: "1 Minute"))
     }
     
-    //ITEMS
-    func addItems() {
-        
-    }
     
-    //FEATS
-    func addFeats() {
-        
+    func countClasses() {
+        var counter = 1
+        while Bundle.main.path(forResource: "Class\(counter)", ofType: "txt") != nil {
+            counter += 1
+        }
+        totalClassNum = counter - 1
+    }
+    func countRaces() {
+        var counter = 1
+        while Bundle.main.path(forResource: "Race\(counter)", ofType: "txt") != nil {
+            counter += 1
+        }
+        totalRaceNum = counter - 1
     }
     
     /*
